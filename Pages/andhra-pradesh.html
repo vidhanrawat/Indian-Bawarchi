@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andhra Pradesh Dishes</title>
+    <link rel="stylesheet" href="recipes.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo"></div>
+        <div class="nav">
+            <a href="./../indianbawarchi.html">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="Recipes.html">RECIPES</a>
+            <a href="#" id="start-here-link">SUBMIT RECIPE</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-search"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card" onclick="openDish('biryani')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuSFLwYVxmX7ngrnwdXbMdx_wGjOdCe-I2QoKX9th-LA&s" alt="Hyderabadi Biryani">
+            <h2>Hyderabadi Biryani</h2>
+            <p>Aromatic rice dish with marinated meat, herbs, and spices.</p>
+            <p><strong>Ingredients:</strong> Basmati rice, chicken/mutton, yogurt, onions, tomatoes, ginger-garlic paste, green chilies, mint leaves, coriander leaves, spices (cinnamon, cloves, cardamom, bay leaf), saffron, ghee, oil.</p>
+            <p><strong>Preparation:</strong> Marinate meat with yogurt and spices. Cook rice with whole spices until 70% done. Layer partially cooked rice and marinated meat, then cook on low heat until fully done.</p>
+        </div>
+        <div class="card" onclick="openDish('pulihora')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjwhDAbzzrTeYEpTutMKlsp72cc9LdFXPWqQvMPIV4-A&s" alt="Pulihora">
+            <h2>Pulihora</h2>
+            <p>Tangy rice preparation made with tamarind and spices.</p>
+            <p><strong>Ingredients:</strong> Rice, tamarind pulp, green chilies, red chilies, curry leaves, mustard seeds, turmeric, peanuts, chana dal, urad dal, asafoetida, oil.</p>
+            <p><strong>Preparation:</strong> Cook rice and let it cool. Prepare tamarind pulp mixture with spices. Mix the cooled rice with the tamarind mixture and temper with spices.</p>
+        </div>
+        <div class="card" onclick="openDish('gongura-pachadi')">
+            <img src="recipeImages/gongura-pachadi.jpg" alt="Gongura Pachadi">
+            <h2>Gongura Pachadi</h2>
+            <p>Andhra-style chutney made with sorrel leaves and spices.</p>
+            <p><strong>Ingredients:</strong> Gongura (sorrel) leaves, green chilies, red chilies, garlic, mustard seeds, fenugreek seeds, oil, salt.</p>
+            <p><strong>Preparation:</strong> Fry gongura leaves and chilies. Grind the mixture with salt. Temper mustard seeds, garlic, and fenugreek seeds, then mix with the ground gongura.</p>
+        </div>
+        <div class="card" onclick="openDish('pesarattu')">
+            <img src="recipeImages/pesarattu.jpg" alt="Pesarattu">
+            <h2>Pesarattu</h2>
+            <p>Green gram dosa served with ginger chutney.</p>
+            <p><strong>Ingredients:</strong> Green gram (moong dal), rice, green chilies, ginger, cumin seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Soak green gram and rice overnight. Grind with chilies, ginger, and cumin to a smooth batter. Make dosas and serve with chutney.</p>
+        </div>
+        <div class="card" onclick="openDish('gutti-vankaya')">
+            <img src="recipeImages/gutti-vankaya.jpg" alt="Gutti Vankaya">
+            <h2>Gutti Vankaya</h2>
+            <p>Stuffed brinjal curry with a rich masala filling.</p>
+            <p><strong>Ingredients:</strong> Small brinjals, peanuts, sesame seeds, coconut, tamarind, onions, garlic, red chilies, spices (coriander, cumin, turmeric), oil, salt.</p>
+            <p><strong>Preparation:</strong> Roast and grind peanuts, sesame, coconut, and spices. Stuff the brinjals with this mixture and cook in a gravy made from onions and tamarind.</p>
+        </div>
+        <div class="card" onclick="openDish('pulasa-pulusu')">
+            <img src="recipeImages/pulasa-pulusu.jpg" alt="Pulasa Pulusu">
+            <h2>Pulasa Pulusu</h2>
+            <p>Tangy fish curry made with Pulasa fish.</p>
+            <p><strong>Ingredients:</strong> Pulasa fish, tamarind, onions, tomatoes, green chilies, garlic, turmeric, red chili powder, oil, salt.</p>
+            <p><strong>Preparation:</strong> Marinate fish with turmeric and salt. Cook onions and tomatoes with spices and tamarind. Add fish and simmer until done.</p>
+        </div>
+        <div class="card" onclick="openDish('bobbattu')">
+            <img src="recipeImages/bobbattu.jpg" alt="Bobbattu">
+            <h2>Bobbattu</h2>
+            <p>Sweet flatbread stuffed with jaggery and chana dal.</p>
+            <p><strong>Ingredients:</strong> Chana dal, jaggery, cardamom powder, wheat flour, ghee.</p>
+            <p><strong>Preparation:</strong> Cook and mash chana dal with jaggery and cardamom. Prepare dough with wheat flour. Stuff dough with chana dal mixture and cook on a griddle with ghee.</p>
+        </div>
+        <div class="card" onclick="openDish('aratikaya-vepudu')">
+            <img src="recipeImages/aratikaya-vepudu.jpg" alt="Aratikaya Vepudu">
+            <h2>Aratikaya Vepudu</h2>
+            <p>Crispy fried plantain slices with spices.</p>
+            <p><strong>Ingredients:</strong> Raw plantains, turmeric, red chili powder, salt, oil.</p>
+            <p><strong>Preparation:</strong> Slice plantains thinly. Marinate with spices and fry until crispy.</p>
+        </div>
+        <div class="card" onclick="openDish('natu-kodi-koora')">
+            <img src="recipeImages/natu-kodi-koora.jpg" alt="Natu Kodi Koora">
+            <h2>Natu Kodi Koora</h2>
+            <p>Country chicken curry with traditional spices.</p>
+            <p><strong>Ingredients:</strong> Country chicken, onions, tomatoes, green chilies, ginger-garlic paste, red chili powder, turmeric, coriander powder, oil, salt.</p>
+            <p><strong>Preparation:</strong> Cook chicken with onions, tomatoes, and spices until tender.</p>
+        </div>
+        <div class="card" onclick="openDish('pootharekulu')">
+            <img src="recipeImages/pootharekulu.jpg" alt="Pootharekulu">
+            <h2>Pootharekulu</h2>
+            <p>Delicate sweet made with rice starch and sugar.</p>
+            <p><strong>Ingredients:</strong> Rice starch, sugar, ghee.</p>
+            <p><strong>Preparation:</strong> Prepare rice starch sheets. Spread sugar and ghee on sheets, roll them up and serve.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Indian Bawarchi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

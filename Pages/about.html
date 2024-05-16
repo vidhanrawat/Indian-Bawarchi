@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="nav">
+            <a href="./../indianbawarchi.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="Recipes.html">RECIPES</a>
+            <a href="#" id="start-here-link">SUBMIT RECIPE</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    <!--<div class="nav">
+        <a href="./../indianbawarchi.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="Recipes.html">RECIPES</a>
+        <a href="./../indian-bawarchi.php">START HERE</a>
+        <a href="contact.html">CONTACT</a>
+    </div>-->
+    </div>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to our food journey! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget
+                lectus ut eros suscipit vestibulum. Donec tempus sapien sit amet sapien facilisis, id dignissim felis
+                tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Praesent ac velit at magna fermentum sollicitudin at in mauris. Integer euismod dolor vitae sem
+                bibendum, at vulputate odio vestibulum. Aenean sit amet sagittis nisl. Nulla quis ex eget eros luctus
+                volutpat a id velit. Fusce vel metus odio.</p>
+            <p>Vivamus lacinia nunc vel risus vehicula, ac posuere justo tristique. Proin a sapien in odio blandit
+                auctor id vel justo. Sed faucibus urna ut nisl bibendum, vel interdum lectus scelerisque. Curabitur sit
+                amet justo vel erat tristique condimentum.</p>
+            <p>Suspendisse potenti. Vivamus vel ante eu sem ultricies ullamcorper. Fusce commodo justo eu lacus varius,
+                vel fringilla dolor interdum. Suspendisse potenti. Nullam dignissim dignissim mauris, id posuere arcu
+                fermentum ac. Mauris accumsan nec neque a feugiat. Integer a diam sit amet eros posuere interdum.
+                Vivamus dignissim felis sit amet ex commodo, eget efficitur justo sodales. Sed ut dapibus ligula, a
+                elementum orci.</p>
+        </div>
+
+        <!-- Ye wala form -->
+        <div id="recipe-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <form id="recipe-form" onsubmit="sendRecipe(event)">
+                    <h2>Add a Recipe</h2>
+                    <label for="recipe-name">Name</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="recipe-name">Email</label>
+                    <input type="text" id="email" name="email" required>
+    
+                    <label for="recipe-name">Recipe Name</label>
+                    <input type="text" id="recipe-name" name="recipe_name" required>
+                    
+                    <label for="recipe-image">Image URL</label>
+                    <input type="text" id="recipe-image" name="recipe_image" required>
+                    
+                    <label for="recipe-instructions">Ingredients</label>
+                    <textarea id="recipe-instructions" name="recipe_instructions" required></textarea>
+                    
+                    <label for="recipe-procedure">Procedure</label>
+                    <textarea id="recipe-procedure" name="recipe_procedure" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- yha tk  -->
+        
+    </div>
+    <!-- yha se -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src = "script.js"></script>
+    <!-- yha tk  -->
+</body>
+
+</html>
