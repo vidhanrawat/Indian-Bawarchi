@@ -23,6 +23,29 @@ body {
     justify-content: center;
 }
 
+top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0px 40px;
+    margin-bottom: 30px;
+    background-color: #f1f1f168;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Cover the entire header */
+    max-width: 1200px; /* Adjust max-width as needed */
+    padding: 0 20px; /* Adjust padding for spacing */
+}
+
 /* Card styling */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -69,7 +92,7 @@ body {
     width: 100%;
     align-items: center;
     padding: 0px 40px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     background-color: #f1f1f168;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -85,8 +108,16 @@ body {
 }
 
 /* Hover effect for navigation links */
-.nav a:hover {
-    color: rgb(75, 26, 3);
+
+a {
+    padding: 5px 15px;
+    color:hwb(25 5% 44%);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(75, 26, 3) ;
     text-decoration: underline;
     text-underline-position: under;
 }
