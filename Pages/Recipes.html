@@ -107,12 +107,39 @@
         <div class="card" onclick="openState('west-bengal')">
             <h2>West Bengal</h2>
         </div>
+        <div id="recipe-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <form id="recipe-form" onsubmit="sendRecipe(event)">
+                    <h2>Add a Recipe</h2>
+                    <label for="recipe-name">Name</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="recipe-name">Email</label>
+                    <input type="text" id="email" name="email" required>
+    
+                    <label for="recipe-name">Recipe Name</label>
+                    <input type="text" id="recipe-name" name="recipe_name" required>
+                    
+                    <label for="recipe-image">Image URL</label>
+                    <input type="text" id="recipe-image" name="recipe_image" required>
+                    
+                    <label for="recipe-instructions">Ingredients</label>
+                    <textarea id="recipe-instructions" name="recipe_instructions" required></textarea>
+                    
+                    <label for="recipe-procedure">Procedure</label>
+                    <textarea id="recipe-procedure" name="recipe_procedure" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <footer>
         <p>&copy; 2024 Food Recipe Site</p>
     </footer>
-
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
 

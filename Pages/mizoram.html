@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mizoram Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Mizoram Delicacies</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,52 +26,82 @@
 
     <div class="container">
         <div class="card" onclick="openDish('bai')">
+            <img src="https://example.com/bai.jpg" alt="Bai">
             <h2>Bai</h2>
-            <p>Steamed vegetables with bamboo shoots, pork, and local herbs.</p>
-        </div>
-        <div class="card" onclick="openDish('misa-mach-poora')">
-            <h2>Misa Mach Poora</h2>
-            <p>Grilled shrimp marinated with spices and herbs.</p>
+            <p>Vegetable stew made with local greens and herbs.</p>
+            <p><strong>Ingredients:</strong> Local greens, herbs, bamboo shoots, pork/chicken, spices.</p>
+            <p><strong>Preparation:</strong> Cook local greens, bamboo shoots, and meat with spices until tender.</p>
         </div>
         <div class="card" onclick="openDish('vawksa-rep')">
+            <img src="https://example.com/vawksa-rep.jpg" alt="Vawksa Rep">
             <h2>Vawksa Rep</h2>
-            <p>Smoked pork cooked with mustard greens and chilies.</p>
-        </div>
-        <div class="card" onclick="openDish('bamboo-shoot-fry')">
-            <h2>Bamboo Shoot Fry</h2>
-            <p>Stir-fried bamboo shoots with spices and herbs.</p>
+            <p>Smoked pork cooked with local herbs and spices.</p>
+            <p><strong>Ingredients:</strong> Smoked pork, local herbs, spices, bamboo shoots.</p>
+            <p><strong>Preparation:</strong> Cook smoked pork with herbs, spices, and bamboo shoots.</p>
         </div>
         <div class="card" onclick="openDish('koat-pitha')">
+            <img src="https://example.com/koat-pitha.jpg" alt="Koat Pitha">
             <h2>Koat Pitha</h2>
-            <p>Deep-fried rice flour fritters with bananas.</p>
+            <p>Rice cakes steamed in turmeric leaves.</p>
+            <p><strong>Ingredients:</strong> Rice, turmeric leaves, jaggery, coconut.</p>
+            <p><strong>Preparation:</strong> Prepare rice cakes, wrap in turmeric leaves, and steam.</p>
         </div>
-        <div class="card" onclick="openDish('panch-phoran-tarkari')">
-            <h2>Panch Phoran Tarkari</h2>
-            <p>Mixed vegetables cooked with a blend of five spices.</p>
+        <div class="card" onclick="openDish('chhangban-lei')">
+            <img src="https://example.com/chhangban-lei.jpg" alt="Chhangban Lei">
+            <h2>Chhangban Lei</h2>
+            <p>Stir-fried bamboo shoots with local spices.</p>
+            <p><strong>Ingredients:</strong> Bamboo shoots, spices, oil, garlic, ginger.</p>
+            <p><strong>Preparation:</strong> Stir-fry bamboo shoots with spices, garlic, and ginger.</p>
         </div>
-        <div class="card" onclick="openDish('chhum-han')">
-            <h2>Chhum Han</h2>
-            <p>Steamed mixed vegetables with minimal spices.</p>
+        <div class="card" onclick="openDish('sa-um')">
+            <img src="https://example.com/sa-um.jpg" alt="Sa Um">
+            <h2>Sa Um</h2>
+            <p>Fermented pork cooked with local greens.</p>
+            <p><strong>Ingredients:</strong> Fermented pork, local greens, spices.</p>
+            <p><strong>Preparation:</strong> Cook fermented pork with greens and spices.</p>
         </div>
-        <div class="card" onclick="openDish('dal-with-bamboo-shoots')">
-            <h2>Dal with Bamboo Shoots</h2>
-            <p>Lentil curry cooked with bamboo shoots.</p>
+        <div class="card" onclick="openDish('misa-mach-poora')">
+            <img src="https://example.com/misa-mach-poora.jpg" alt="Misa Mach Poora">
+            <h2>Misa Mach Poora</h2>
+            <p>Fried river fish marinated with local spices.</p>
+            <p><strong>Ingredients:</strong> River fish, local spices, oil.</p>
+            <p><strong>Preparation:</strong> Marinate fish with spices and fry until crispy.</p>
         </div>
-        <div class="card" onclick="openDish('bekang')">
-            <h2>Bekang</h2>
-            <p>Fermented soybeans used as a condiment or side dish.</p>
+        <div class="card" onclick="openDish('bawngkawn-thlai')">
+            <img src="https://example.com/bawngkawn-thlai.jpg" alt="Bawngkawn Thlai">
+            <h2>Bawngkawn Thlai</h2>
+            <p>Traditional pork stew with vegetables.</p>
+            <p><strong>Ingredients:</strong> Pork, vegetables, spices, herbs.</p>
+            <p><strong>Preparation:</strong> Cook pork with vegetables, spices, and herbs until tender.</p>
         </div>
-        <div class="card" onclick="openDish('pork-bharta')">
-            <h2>Pork Bharta</h2>
-            <p>Mashed pork with herbs and spices.</p>
+        <div class="card" onclick="openDish('chhum-hanthi')">
+            <img src="https://example.com/chhum-hanthi.jpg" alt="Chhum Hanthi">
+            <h2>Chhum Hanthi</h2>
+            <p>Sticky rice cake made with jaggery and coconut.</p>
+            <p><strong>Ingredients:</strong> Sticky rice, jaggery, coconut, banana leaves.</p>
+            <p><strong>Preparation:</strong> Cook sticky rice with jaggery and coconut, wrap in banana leaves and steam.</p>
+        </div>
+        <div class="card" onclick="openDish('bun')">
+            <img src="https://example.com/bun.jpg" alt="Bun">
+            <h2>Bun</h2>
+            <p>Deep-fried sweet bread made with rice flour.</p>
+            <p><strong>Ingredients:</strong> Rice flour, jaggery, oil.</p>
+            <p><strong>Preparation:</strong> Mix rice flour with jaggery, shape into bread, and deep fry.</p>
+        </div>
+        <div class="card" onclick="openDish('khara')">
+            <img src="https://example.com/khara.jpg" alt="Khara">
+            <h2>Khara</h2>
+            <p>Spicy soup made with fermented soybeans.</p>
+            <p><strong>Ingredients:</strong> Fermented soybeans, chili, garlic, ginger, vegetables.</p>
+            <p><strong>Preparation:</strong> Cook fermented soybeans with spices and vegetables to make a spicy soup.</p>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script>
+        function openDish(dishName) {
+            // Logic to open dish details or link to a recipe page
+        }
+    </script>
 </body>
 
 </html>

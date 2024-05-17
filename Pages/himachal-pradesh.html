@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Himachal Pradesh Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,48 +25,77 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('chana-madrah')">
-            <h2>Chana Madrah</h2>
-            <p>Chickpeas cooked in a yogurt-based gravy.</p>
+        <div class="card" onclick="openDish('madra')">
+            <img src="https://example.com/madra.jpg" alt="Madra">
+            <h2>Madra</h2>
+            <p>Chickpea-based curry with yogurt and spices.</p>
+            <p><strong>Ingredients:</strong> Chickpeas, yogurt, gram flour, ghee, cumin seeds, asafoetida, cloves, cinnamon, bay leaf, cardamom, turmeric, salt.</p>
+            <p><strong>Preparation:</strong> Cook chickpeas with yogurt and spices in ghee.</p>
+        </div>
+        <div class="card" onclick="openDish('dhaam')">
+            <img src="https://example.com/dhaam.jpg" alt="Dhaam">
+            <h2>Dhaam</h2>
+            <p>Traditional Himachali feast with rice, dal, and vegetables.</p>
+            <p><strong>Ingredients:</strong> Rice, rajma, moong dal, yogurt, boondi, kadhi, vegetables, spices.</p>
+            <p><strong>Preparation:</strong> Prepare various dishes like rajma, moong dal, and kadhi, and serve together with rice and boondi raita.</p>
         </div>
         <div class="card" onclick="openDish('siddu')">
+            <img src="https://example.com/siddu.jpg" alt="Siddu">
             <h2>Siddu</h2>
-            <p>Steamed bread typically served with ghee and chutney.</p>
-        </div>
-        <div class="card" onclick="openDish('babru')">
-            <h2>Babru</h2>
-            <p>A type of Himachali kachori stuffed with black gram paste.</p>
-        </div>
-        <div class="card" onclick="openDish('dham')">
-            <h2>Dham</h2>
-            <p>A traditional festive meal served during Himachali celebrations.</p>
-        </div>
-        <div class="card" onclick="openDish('bhey')">
-            <h2>Bhey</h2>
-            <p>A stir-fried lotus stem dish with spices.</p>
+            <p>Steamed bread stuffed with spiced mixture.</p>
+            <p><strong>Ingredients:</strong> Wheat flour, yeast, poppy seeds, walnuts, spices, ghee.</p>
+            <p><strong>Preparation:</strong> Make dough with yeast, stuff with spiced mixture, and steam until cooked.</p>
         </div>
         <div class="card" onclick="openDish('chana-madra')">
+            <img src="https://example.com/chana-madra.jpg" alt="Chana Madra">
             <h2>Chana Madra</h2>
-            <p>Chickpeas cooked in a thick yogurt gravy.</p>
+            <p>Yogurt-based curry with chickpeas.</p>
+            <p><strong>Ingredients:</strong> Chickpeas, yogurt, gram flour, cumin seeds, cloves, cinnamon, cardamom, bay leaf, turmeric, salt, ghee.</p>
+            <p><strong>Preparation:</strong> Cook chickpeas with yogurt and spices in ghee.</p>
         </div>
-        <div class="card" onclick="openDish('kullu-trout')">
-            <h2>Kullu Trout</h2>
-            <p>Trout fish marinated and cooked with minimal spices.</p>
-        </div>
-        <div class="card" onclick="openDish('patande')">
-            <h2>Patande</h2>
-            <p>Himachali pancakes made from wheat flour.</p>
+        <div class="card" onclick="openDish('babru')">
+            <img src="https://example.com/babru.jpg" alt="Babru">
+            <h2>Babru</h2>
+            <p>Deep-fried bread stuffed with black gram paste.</p>
+            <p><strong>Ingredients:</strong> Wheat flour, black gram dal, spices, oil.</p>
+            <p><strong>Preparation:</strong> Stuff wheat flour dough with spiced black gram paste and deep fry.</p>
         </div>
         <div class="card" onclick="openDish('aktori')">
+            <img src="https://example.com/aktori.jpg" alt="Aktori">
             <h2>Aktori</h2>
-            <p>A festive dish made from buckwheat leaves and wheat flour.</p>
+            <p>Buckwheat pancakes popular in Himachal Pradesh.</p>
+            <p><strong>Ingredients:</strong> Buckwheat flour, wheat flour, milk, sugar, ghee.</p>
+            <p><strong>Preparation:</strong> Make a batter with buckwheat and wheat flour, fry pancakes in ghee.</p>
+        </div>
+        <div class="card" onclick="openDish('chana-dal')">
+            <img src="https://example.com/chana-dal.jpg" alt="Chana Dal">
+            <h2>Chana Dal</h2>
+            <p>Split chickpea lentils cooked with spices.</p>
+            <p><strong>Ingredients:</strong> Chana dal, onions, tomatoes, ginger, garlic, cumin seeds, turmeric, coriander powder, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook chana dal with onions, tomatoes, and spices.</p>
         </div>
         <div class="card" onclick="openDish('mittha')">
+            <img src="https://example.com/mittha.jpg" alt="Mittha">
             <h2>Mittha</h2>
-            <p>A sweet dish made from rice and raisins.</p>
+            <p>Sweet dish made from rice, dry fruits, and sugar.</p>
+            <p><strong>Ingredients:</strong> Basmati rice, sugar, dry fruits (raisins, almonds, cashews), cardamom, ghee.</p>
+            <p><strong>Preparation:</strong> Cook rice with sugar and cardamom, garnish with dry fruits.</p>
+        </div>
+        <div class="card" onclick="openDish('kullu-trout')">
+            <img src="https://example.com/kullu-trout.jpg" alt="Kullu Trout">
+            <h2>Kullu Trout</h2>
+            <p>Grilled trout fish with minimal spices.</p>
+            <p><strong>Ingredients:</strong> Trout fish, lemon, spices (salt, pepper, turmeric), mustard oil.</p>
+            <p><strong>Preparation:</strong> Marinate trout with spices and lemon, grill or bake until cooked.</p>
+        </div>
+        <div class="card" onclick="openDish('patande')">
+            <img src="https://example.com/patande.jpg" alt="Patande">
+            <h2>Patande</h2>
+            <p>Himachali pancakes served with ghee and sugar.</p>
+            <p><strong>Ingredients:</strong> Wheat flour, milk, sugar, ghee.</p>
+            <p><strong>Preparation:</strong> Make a batter with wheat flour and milk, fry pancakes in ghee.</p>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Indian Bawarchi</p>
     </footer>

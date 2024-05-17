@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Punjab Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Punjab Delicacies</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,53 +25,74 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('saron-da-saag')">
-            <h2>Saron Da Saag</h2>
-            <p>Leafy greens cooked with spices, often served with makki di roti.</p>
+        <div class="card" onclick="openDish('sarovar-dal')">
+            <img src="https://example.com/sarovar-dal.jpg" alt="Sarovar Dal">
+            <h2>Sarovar Dal</h2>
+            <p>Creamy lentil dish tempered with spices and ghee.</p>
+            <p><strong>Ingredients:</strong> Lentils, spices, ghee, cream.</p>
+            <p><strong>Preparation:</strong> Cook lentils, temper with spices, ghee, and finish with cream.</p>
         </div>
         <div class="card" onclick="openDish('butter-chicken')">
+            <img src="https://example.com/butter-chicken.jpg" alt="Butter Chicken">
             <h2>Butter Chicken</h2>
-            <p>Tender chicken cooked in a rich tomato and butter sauce.</p>
+            <p>Chicken cooked in a rich, buttery tomato-based sauce.</p>
+            <p><strong>Ingredients:</strong> Chicken, tomatoes, butter, cream, spices.</p>
+            <p><strong>Preparation:</strong> Cook chicken in tomato-based sauce with butter, cream, and spices.</p>
         </div>
-        <div class="card" onclick="openDish('chole-bhature')">
-            <h2>Chole Bhature</h2>
-            <p>Spicy chickpea curry served with deep-fried bread.</p>
+        <div class="card" onclick="openDish('sarson-da-saag')">
+            <img src="https://example.com/sarson-da-saag.jpg" alt="Sarson Da Saag">
+            <h2>Sarson Da Saag</h2>
+            <p>Mustard greens cooked with spices and served with makki di roti.</p>
+            <p><strong>Ingredients:</strong> Mustard greens, spices, cornmeal (makki atta).</p>
+            <p><strong>Preparation:</strong> Cook mustard greens with spices, serve with cornmeal flatbread.</p>
         </div>
-        <div class="card" onclick="openDish('aaloo-paratha')">
-            <h2>Aaloo Paratha</h2>
-            <p>Flatbread stuffed with spiced potato filling.</p>
+        <div class="card" onclick="openDish('chana-masala')">
+            <img src="https://example.com/chana-masala.jpg" alt="Chana Masala">
+            <h2>Chana Masala</h2>
+            <p>Spicy chickpea curry with a blend of aromatic spices.</p>
+            <p><strong>Ingredients:</strong> Chickpeas, onions, tomatoes, spices, ginger, garlic.</p>
+            <p><strong>Preparation:</strong> Cook chickpeas with onions, tomatoes, spices, ginger, and garlic.</p>
         </div>
         <div class="card" onclick="openDish('paneer-tikka')">
+            <img src="https://example.com/paneer-tikka.jpg" alt="Paneer Tikka">
             <h2>Paneer Tikka</h2>
-            <p>Marinated paneer pieces grilled to perfection.</p>
+            <p>Marinated paneer (Indian cheese) skewers grilled to perfection.</p>
+            <p><strong>Ingredients:</strong> Paneer, yogurt, spices, bell peppers, onions.</p>
+            <p><strong>Preparation:</strong> Marinate paneer with yogurt and spices, skewer with veggies, grill until charred.</p>
         </div>
-        <div class="card" onclick="openDish('rajma-chawal')">
-            <h2>Rajma Chawal</h2>
-            <p>Red kidney beans curry served with rice.</p>
+        <div class="card" onclick="openDish('aaloo-gobi')">
+            <img src="https://example.com/aaloo-gobi.jpg" alt="Aaloo Gobi">
+            <h2>Aaloo Gobi</h2>
+            <p>Classic potato and cauliflower curry with spices.</p>
+            <p><strong>Ingredients:</strong> Potatoes, cauliflower, spices, onions, tomatoes.</p>
+            <p><strong>Preparation:</strong> Cook potatoes and cauliflower with spices, onions, and tomatoes.</p>
+        </div>
+        <div class="card" onclick="openDish('tandoori-chicken')">
+            <img src="https://example.com/tandoori-chicken.jpg" alt="Tandoori Chicken">
+            <h2>Tandoori Chicken</h2>
+            <p>Chicken marinated in yogurt and tandoori spices, roasted in a tandoor oven.</p>
+            <p><strong>Ingredients:</strong> Chicken, yogurt, tandoori spices.</p>
+            <p><strong>Preparation:</strong> Marinate chicken with yogurt and tandoori spices, roast in a tandoor oven or grill.</p>
         </div>
         <div class="card" onclick="openDish('lassi')">
+            <img src="https://example.com/lassi.jpg" alt="Lassi">
             <h2>Lassi</h2>
             <p>Refreshing yogurt-based drink, sweet or salty.</p>
+            <p><strong>Ingredients:</strong> Yogurt, sugar/salt, water, spices (optional).</p>
+            <p><strong>Preparation:</strong> Blend yogurt with sugar/salt, water, and spices if using, serve chilled.</p>
         </div>
-        <div class="card" onclick="openDish('sarson-ka-saag')">
-            <h2>Sarson Ka Saag</h2>
-            <p>Mustard greens cooked with spices and ghee.</p>
+        <div class="card" onclick="openDish('rajma-chawal')">
+            <img src="https://example.com/rajma-chawal.jpg" alt="Rajma Chawal">
+            <h2>Rajma Chawal</h2>
+            <p>Red kidney beans curry served with steamed rice.</p>
+            <p><strong>Ingredients:</strong> Kidney beans, rice, onions, tomatoes, spices.</p>
+            <p><strong>Preparation:</strong> Cook kidney beans with onions, tomatoes, spices, serve with steamed rice.</p>
         </div>
-        <div class="card" onclick="openDish('punjabi-kadi')">
-            <h2>Punjabi Kadi</h2>
-            <p>Yogurt-based curry with gram flour and spices.</p>
+        <div class="card" onclick="openDish('gajar-halwa')">
+            <img src="https://example.com/gajar-halwa.jpg" alt="Gajar Halwa">
+            <h2>Gajar Halwa</h2>
+            <p>Carrot pudding cooked with milk, sugar, and ghee.</p>
+            <p><strong>Ingredients:</strong> Carrots, milk, sugar, ghee, nuts.</p>
+            <p><strong>Preparation:</strong> Cook grated carrots with milk, sugar, and ghee until
+            </p>
         </div>
-        <div class="card" onclick="openDish('gajar-ka-halwa')">
-            <h2>Gajar Ka Halwa</h2>
-            <p>Carrot pudding cooked with milk and sugar.</p>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>

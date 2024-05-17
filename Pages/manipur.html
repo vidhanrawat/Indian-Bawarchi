@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipur Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Manipur Cuisine</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,53 +25,83 @@
     </div>
 
     <div class="container">
+        <div class="card" onclick="openDish('edo-pham')">
+            <img src="https://example.com/edo-pham.jpg" alt="Edo Pham">
+            <h2>Edo Pham</h2>
+            <p>Fermented soybean stew with bamboo shoots and fish.</p>
+            <p><strong>Ingredients:</strong> Soybeans, bamboo shoots, fish, ginger, garlic, chili, turmeric.</p>
+            <p><strong>Preparation:</strong> Ferment soybeans, cook with bamboo shoots, fish, and spices.</p>
+        </div>
+        <div class="card" onclick="openDish('ngari')">
+            <img src="https://example.com/ngari.jpg" alt="Ngari">
+            <h2>Ngari</h2>
+            <p>Fermented fish paste used in various Manipuri dishes.</p>
+            <p><strong>Ingredients:</strong> Fish, salt, water, bamboo leaves.</p>
+            <p><strong>Preparation:</strong> Ferment fish with salt and wrap in bamboo leaves.</p>
+        </div>
+        <div class="card" onclick="openDish('ching-hao-kroub')">
+            <img src="https://example.com/ching-hao-kroub.jpg" alt="Ching Hao Kroub">
+            <h2>Ching Hao Kroub</h2>
+            <p>Stir-fried water spinach with garlic and chili.</p>
+            <p><strong>Ingredients:</strong> Water spinach, garlic, chili, oil.</p>
+            <p><strong>Preparation:</strong> Stir-fry water spinach with garlic and chili.</p>
+        </div>
         <div class="card" onclick="openDish('eromba')">
+            <img src="https://example.com/eromba.jpg" alt="Eromba">
             <h2>Eromba</h2>
-            <p>Fermented fish and mashed vegetables seasoned with chili and herbs.</p>
+            <p>Fermented fish curry with mashed vegetables.</p>
+            <p><strong>Ingredients:</strong> Fermented fish, potatoes, bamboo shoots, chili, spices.</p>
+            <p><strong>Preparation:</strong> Cook fermented fish with mashed vegetables and spices.</p>
         </div>
         <div class="card" onclick="openDish('singju')">
+            <img src="https://example.com/singju.jpg" alt="Singju">
             <h2>Singju</h2>
-            <p>Spicy vegetable salad with lotus stem, green leafy vegetables, and herbs.</p>
+            <p>Manipuri salad with mixed vegetables and herbs.</p>
+            <p><strong>Ingredients:</strong> Cabbage, carrots, radish, herbs, chili, peanuts.</p>
+            <p><strong>Preparation:</strong> Mix shredded vegetables with herbs, chili, and peanuts.</p>
         </div>
-        <div class="card" onclick="openDish('chak-hao-kheer')">
-            <h2>Chak Hao Kheer</h2>
-            <p>Black rice pudding flavored with cardamom and garnished with nuts.</p>
-        </div>
-        <div class="card" onclick="openDish('utthi-thongba')">
-            <h2>Utthi Thongba</h2>
-            <p>Lentil stew cooked with seasonal vegetables and aromatic spices.</p>
-        </div>
-        <div class="card" onclick="openDish('chak-hao-amubi')">
-            <h2>Chak Hao Amubi</h2>
-            <p>Sweet black rice dish flavored with coconut milk and jaggery.</p>
-        </div>
-        <div class="card" onclick="openDish('morok-metcpa')">
-            <h2>Morok Metpa</h2>
-            <p>Spicy chutney made from fresh green chilies and herbs.</p>
+        <div class="card" onclick="openDish('chamthong')">
+            <img src="https://example.com/chamthong.jpg" alt="Chamthong">
+            <h2>Chamthong</h2>
+            <p>Vegetable stew with seasonal vegetables and herbs.</p>
+            <p><strong>Ingredients:</strong> Seasonal vegetables, herbs, fish, water.</p>
+            <p><strong>Preparation:</strong> Cook vegetables and fish in water with herbs.</p>
         </div>
         <div class="card" onclick="openDish('paknam')">
+            <img src="https://example.com/paknam.jpg" alt="Paknam">
             <h2>Paknam</h2>
-            <p>Steamed cake made from besan (gram flour) and herbs.</p>
+            <p>Fermented dry fish chutney.</p>
+            <p><strong>Ingredients:</strong> Dry fish, garlic, chili, salt.</p>
+            <p><strong>Preparation:</strong> Crush dry fish with garlic, chili, and salt.</p>
         </div>
-        <div class="card" onclick="openDish('kelli-chana')">
-            <h2>Kelli Chana</h2>
-            <p>Spicy and tangy chickpea salad with fresh herbs.</p>
+        <div class="card" onclick="openDish('kangsoi')">
+            <img src="https://example.com/kangsoi.jpg" alt="Kangsoi">
+            <h2>Kangsoi</h2>
+            <p>Vegetable soup with fish and herbs.</p>
+            <p><strong>Ingredients:</strong> Vegetables, fish, herbs, spices.</p>
+            <p><strong>Preparation:</strong> Cook vegetables and fish with spices and herbs.</p>
         </div>
-        <div class="card" onclick="openDish('alu kangmet')">
-            <h2>Alu Kangmet</h2>
-            <p>Mashed potatoes seasoned with chili, mustard oil, and herbs.</p>
+        <div class="card" onclick="openDish('iju')">
+            <img src="https://example.com/iju.jpg" alt="Iju">
+            <h2>Iju</h2>
+            <p>Fermented bamboo shoot soup.</p>
+            <p><strong>Ingredients:</strong> Bamboo shoots, water, chili, salt.</p>
+            <p><strong>Preparation:</strong> Cook fermented bamboo shoots with chili and salt.</p>
         </div>
-        <div class="card" onclick="openDish('bora')">
-            <h2>Bora</h2>
-            <p>Deep-fried fritters made from various ingredients like lentils or vegetables.</p>
+        <div class="card" onclick="openDish('paaknam')">
+            <img src="https://example.com/paaknam.jpg" alt="Paaknam">
+            <h2>Paaknam</h2>
+            <p>Fish and bamboo shoot stew.</p>
+            <p><strong>Ingredients:</strong> Fish, bamboo shoots, herbs, spices.</p>
+            <p><strong>Preparation:</strong> Cook fish and bamboo shoots with spices and herbs.</p>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script>
+        function openDish(dishName) {
+            // Logic to open dish details or link to a recipe page
+        }
+    </script>
 </body>
 
 </html>

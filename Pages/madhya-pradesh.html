@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madhya Pradesh Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Madhya Pradesh Cuisine</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,53 +25,71 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('bhutte-ka-kees')">
-            <h2>Bhutte Ka Kees</h2>
-            <p>Grated corn cooked with milk and spices.</p>
-        </div>
         <div class="card" onclick="openDish('poha')">
+            <img src="https://example.com/poha.jpg" alt="Poha">
             <h2>Poha</h2>
-            <p>Flattened rice cooked with onions, potatoes, and spices.</p>
+            <p>Flattened rice flakes cooked with onions, potatoes, and spices.</p>
+            <p><strong>Ingredients:</strong> Poha (flattened rice), onions, potatoes, peanuts, turmeric, mustard seeds, curry leaves.</p>
+            <p><strong>Preparation:</strong> Rinse poha, sauté with onions, potatoes, and spices.</p>
         </div>
-        <div class="card" onclick="openDish('dahi-vada')">
-            <h2>Dahi Vada</h2>
-            <p>Lentil dumplings soaked in spiced yogurt.</p>
-        </div>
-        <div class="card" onclick="openDish('palak-puri')">
-            <h2>Palak Puri</h2>
-            <p>Deep-fried spinach bread.</p>
-        </div>
-        <div class="card" onclick="openDish('sabudana-khichdi')">
-            <h2>Sabudana Khichdi</h2>
-            <p>Stir-fried tapioca pearls with peanuts and potatoes.</p>
-        </div>
-        <div class="card" onclick="openDish('kadhi')">
-            <h2>Kadhi</h2>
-            <p>Yogurt-based curry with gram flour dumplings.</p>
-        </div>
-        <div class="card" onclick="openDish('bhutte-ki-raab')">
-            <h2>Bhutte Ki Raab</h2>
-            <p>A soup made from corn and buttermilk.</p>
-        </div>
-        <div class="card" onclick="openDish('mawa-bati')">
-            <h2>Mawa Bati</h2>
-            <p>Sweet stuffed dumplings made with khoya.</p>
-        </div>
-        <div class="card" onclick="openDish('shikanji')">
-            <h2>Shikanji</h2>
-            <p>Traditional spiced lemonade.</p>
+        <div class="card" onclick="openDish('bhopali-gosht-korma')">
+            <img src="https://example.com/bhopali-gosht-korma.jpg" alt="Bhopali Gosht Korma">
+            <h2>Bhopali Gosht Korma</h2>
+            <p>Creamy and aromatic mutton curry from Bhopal.</p>
+            <p><strong>Ingredients:</strong> Mutton, yogurt, onions, tomatoes, cashews, spices (cardamom, cloves, cinnamon), ghee.</p>
+            <p><strong>Preparation:</strong> Cook mutton with spices, yogurt, and cashew paste until tender.</p>
         </div>
         <div class="card" onclick="openDish('bhutte-ki-kees')">
+            <img src="https://example.com/bhutte-ki-kees.jpg" alt="Bhutte Ki Kees">
             <h2>Bhutte Ki Kees</h2>
-            <p>Grated corn cooked with milk and spices.</p>
+            <p>Grated corn cooked with spices and milk.</p>
+            <p><strong>Ingredients:</strong> Grated corn, milk, ginger, green chilies, mustard seeds, turmeric, ghee.</p>
+            <p><strong>Preparation:</strong> Sauté corn with spices and milk until cooked.</p>
+        </div>
+        <div class="card" onclick="openDish('dal-bafla')">
+            <img src="https://example.com/dal-bafla.jpg" alt="Dal Bafla">
+            <h2>Dal Bafla</h2>
+            <p>Steamed wheat and lentil dumplings served with dal.</p>
+            <p><strong>Ingredients:</strong> Wheat flour, toor dal, spices (cumin, coriander, chili), ghee.</p>
+            <p><strong>Preparation:</strong> Make dough, shape into balls, steam, and serve with dal.</p>
+        </div>
+        <div class="card" onclick="openDish('mawa-bati')">
+            <img src="https://example.com/mawa-bati.jpg" alt="Mawa Bati">
+            <h2>Mawa Bati</h2>
+            <p>Sweet balls made from mawa (milk solids), sugar, and nuts.</p>
+            <p><strong>Ingredients:</strong> Mawa, sugar, cardamom, nuts.</p>
+            <p><strong>Preparation:</strong> Mix mawa with sugar, shape into balls, garnish with nuts.</p>
+        </div>
+        <div class="card" onclick="openDish('bhutte-ka-kebab')">
+            <img src="https://example.com/bhutte-ka-kebab.jpg" alt="Bhutte Ka Kebab">
+            <h2>Bhutte Ka Kebab</h2>
+            <p>Corn and potato kebabs flavored with spices.</p>
+            <p><strong>Ingredients:</strong> Corn kernels, potatoes, bread crumbs, spices (ginger, chili, coriander), oil.</p>
+            <p><strong>Preparation:</strong> Mash corn and potatoes, mix with spices, shape into kebabs, and grill.</p>
+        </div>
+        <div class="card" onclick="openDish('shikanji')">
+            <img src="https://example.com/shikanji.jpg" alt="Shikanji">
+            <h2>Shikanji</h2>
+            <p>Refreshing lemonade with spices like cumin and black salt.</p>
+            <p><strong>Ingredients:</strong> Lemon juice, water, sugar, cumin powder, black salt, mint leaves.</p>
+            <p><strong>Preparation:</strong> Mix lemon juice with water, sugar, and spices, garnish with mint.</p>
+        </div>
+        <div class="card" onclick="openDish('malpua')">
+            <img src="https://example.com/malpua.jpg" alt="Malpua">
+            <h2>Malpua</h2>
+            <p>Deep-fried pancakes soaked in sugar syrup.</p>
+            <p><strong>Ingredients:</strong> Flour, milk, sugar, fennel seeds, cardamom, ghee.</p>
+            <p><strong>Preparation:</strong> Make a batter, deep-fry into pancakes, soak in sugar syrup.</p>
+        </div>
+        <div class="card" onclick="openDish('khasta-kachori')">
+            <img src="https://example.com/khasta-kachori.jpg" alt="Khasta Kachori">
+            <h2>Khasta Kachori</h2>
+            <p>Crunchy deep-fried pastry filled with spiced lentils.</p>
+            <p><strong>Ingredients:</strong> Flour, urad dal, spices (fennel, coriander, chili), ghee, oil.</p>
+            <p><strong>Preparation:</strong> Make dough, fill with spiced lentils, deep-fry until golden.</p>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+    <script>
+        function openDish(dishName) {}
+            // Logic to open dish details or link to a recipe page

@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chhattisgarh Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,48 +25,77 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('chana-samosa')">
-            <h2>Chana Samosa</h2>
-            <p>Delicious samosa filled with spicy chana masala.</p>
+        <div class="card" onclick="openDish('chila')">
+            <img src="https://example.com/chila.jpg" alt="Chila">
+            <h2>Chila</h2>
+            <p>Savory pancakes made with rice flour and chana dal.</p>
+            <p><strong>Ingredients:</strong> Rice flour, chana dal, onions, green chilies, coriander leaves, cumin seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Make a batter with rice flour, soaked and ground chana dal, and spices. Cook on a griddle until golden brown.</p>
         </div>
         <div class="card" onclick="openDish('fara')">
+            <img src="https://example.com/fara.jpg" alt="Fara">
             <h2>Fara</h2>
-            <p>Steamed rice dumplings filled with spiced lentil mixture.</p>
+            <p>Steamed dumplings made from rice flour with spicy lentil filling.</p>
+            <p><strong>Ingredients:</strong> Rice flour, chana dal, green chilies, ginger, garlic, cumin seeds, coriander leaves, salt.</p>
+            <p><strong>Preparation:</strong> Prepare dough with rice flour and water. Fill with a mixture of cooked chana dal and spices. Steam until done.</p>
         </div>
         <div class="card" onclick="openDish('bafauri')">
+            <img src="https://example.com/bafauri.jpg" alt="Bafauri">
             <h2>Bafauri</h2>
-            <p>Healthy steamed snack made from chana dal and spices.</p>
-        </div>
-        <div class="card" onclick="openDish('aamat')">
-            <h2>Aamat</h2>
-            <p>Traditional Chhattisgarhi mixed vegetable curry.</p>
+            <p>Healthy steamed lentil balls.</p>
+            <p><strong>Ingredients:</strong> Chana dal, onions, green chilies, coriander leaves, cumin seeds, turmeric, salt.</p>
+            <p><strong>Preparation:</strong> Soak chana dal and grind with spices. Shape into balls and steam until cooked.</p>
         </div>
         <div class="card" onclick="openDish('angakar-roti')">
+            <img src="https://example.com/angakar-roti.jpg" alt="Angakar Roti">
             <h2>Angakar Roti</h2>
-            <p>Popular rice flour roti, often served with chutney or curry.</p>
+            <p>Traditional rice flour roti.</p>
+            <p><strong>Ingredients:</strong> Rice flour, water, salt, oil.</p>
+            <p><strong>Preparation:</strong> Make a dough with rice flour, water, and salt. Roll into rotis and cook on a griddle until done.</p>
+        </div>
+        <div class="card" onclick="openDish('dehrori')">
+            <img src="https://example.com/dehrori.jpg" alt="Dehrori">
+            <h2>Dehrori</h2>
+            <p>Sweet rice dumplings soaked in sugar syrup.</p>
+            <p><strong>Ingredients:</strong> Rice, curd, sugar, cardamom powder, ghee, oil.</p>
+            <p><strong>Preparation:</strong> Ferment rice and curd mixture overnight. Fry dumplings and soak in sugar syrup.</p>
+        </div>
+        <div class="card" onclick="openDish('dubki-kadhi')">
+            <img src="https://example.com/dubki-kadhi.jpg" alt="Dubki Kadhi">
+            <h2>Dubki Kadhi</h2>
+            <p>Yogurt-based curry with gram flour dumplings.</p>
+            <p><strong>Ingredients:</strong> Gram flour, yogurt, turmeric, red chili powder, cumin seeds, mustard seeds, curry leaves, salt.</p>
+            <p><strong>Preparation:</strong> Prepare gram flour dumplings and fry them. Make a curry with yogurt and spices, and add the dumplings.</p>
         </div>
         <div class="card" onclick="openDish('tilgur')">
+            <img src="https://example.com/tilgur.jpg" alt="Tilgur">
             <h2>Tilgur</h2>
-            <p>Sweet made from sesame seeds and jaggery, typically enjoyed during Makar Sankranti.</p>
+            <p>Sesame and jaggery sweets.</p>
+            <p><strong>Ingredients:</strong> Sesame seeds, jaggery, cardamom powder.</p>
+            <p><strong>Preparation:</strong> Roast sesame seeds. Melt jaggery and mix with sesame seeds. Shape into small balls or bars.</p>
         </div>
-        <div class="card" onclick="openDish('muthiya')">
-            <h2>Muthiya</h2>
-            <p>Steamed and spiced rice dumplings, perfect for a light snack.</p>
+        <div class="card" onclick="openDish('chousela')">
+            <img src="https://example.com/chousela.jpg" alt="Chousela">
+            <h2>Chousela</h2>
+            <p>Deep-fried rice flour puris.</p>
+            <p><strong>Ingredients:</strong> Rice flour, water, salt, oil.</p>
+            <p><strong>Preparation:</strong> Make a dough with rice flour and water. Roll into small puris and deep-fry until golden.</p>
         </div>
-        <div class="card" onclick="openDish('bhajia')">
-            <h2>Bhajia</h2>
-            <p>Deep-fried fritters made from gram flour and vegetables.</p>
+        <div class="card" onclick="openDish('muthia')">
+            <img src="https://example.com/muthia.jpg" alt="Muthia">
+            <h2>Muthia</h2>
+            <p>Steamed dumplings made with gram flour and spices.</p>
+            <p><strong>Ingredients:</strong> Gram flour, fenugreek leaves, turmeric, red chili powder, cumin seeds, oil, salt.</p>
+            <p><strong>Preparation:</strong> Mix gram flour with spices and fenugreek leaves. Shape into logs and steam. Slice and temper with spices.</p>
         </div>
-        <div class="card" onclick="openDish('khurma')">
-            <h2>Khurma</h2>
-            <p>Sweet dish made from wheat flour and sugar syrup, a festive favorite.</p>
-        </div>
-        <div class="card" onclick="openDish('bara')">
-            <h2>Bara</h2>
-            <p>Fried lentil cakes, crispy on the outside and soft inside.</p>
+        <div class="card" onclick="openDish('kusli')">
+            <img src="https://example.com/kusli.jpg" alt="Kusli">
+            <h2>Kusli</h2>
+            <p>Sweet deep-fried pastries with a coconut filling.</p>
+            <p><strong>Ingredients:</strong> Flour, coconut, jaggery, cardamom powder, ghee, oil.</p>
+            <p><strong>Preparation:</strong> Make dough with flour and ghee. Fill with a mixture of coconut and jaggery. Shape into pastries and deep-fry.</p>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Indian Bawarchi</p>
     </footer>

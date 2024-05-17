@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odisha Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Odisha Delicacies</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,52 +26,56 @@
 
     <div class="container">
         <div class="card" onclick="openDish('dalma')">
+            <img src="https://example.com/dalma.jpg" alt="Dalma">
             <h2>Dalma</h2>
-            <p>Vegetable and lentil stew cooked with spices.</p>
+            <p>Mixed lentil and vegetable stew, a staple in Odia cuisine.</p>
+            <p><strong>Ingredients:</strong> Lentils, vegetables (pumpkin, potato, etc.), spices, ghee.</p>
+            <p><strong>Preparation:</strong> Cook lentils and vegetables together with spices, temper with ghee.</p>
         </div>
-        <div class="card" onclick="openDish('machha-bhaja')">
-            <h2>Machha Bhaja</h2>
-            <p>Crispy fried fish marinated with spices.</p>
+        <div class="card" onclick="openDish('pakhala')">
+            <img src="https://example.com/pakhala.jpg" alt="Pakhala">
+            <h2>Pakhala</h2>
+            <p>Fermented rice soaked in water, typically served with fried or curried fish.</p>
+            <p><strong>Ingredients:</strong> Fermented rice, water, fish, spices.</p>
+            <p><strong>Preparation:</strong> Soak fermented rice in water, serve with fish curry or fried fish.</p>
         </div>
-        <div class="card" onclick="openDish('chenna-poda')">
-            <h2>Chenna Poda</h2>
-            <p>Baked cottage cheese dessert with caramelized sugar.</p>
+        <div class="card" onclick="openDish('chhena-poda')">
+            <img src="https://example.com/chhena-poda.jpg" alt="Chhena Poda">
+            <h2>Chhena Poda</h2>
+            <p>Baked cottage cheese dessert, sweet and caramelized.</p>
+            <p><strong>Ingredients:</strong> Cottage cheese, sugar, cardamom, ghee.</p>
+            <p><strong>Preparation:</strong> Mix cottage cheese with sugar, cardamom, shape into a cake, and bake until golden.</p>
         </div>
-        <div class="card" onclick="openDish('pakhala-bhata')">
-            <h2>Pakhala Bhata</h2>
-            <p>Fermented rice soaked in water served with side dishes.</p>
-        </div>
-        <div class="card" onclick="openDish('biriyanis')">
-            <h2>Biriyanis</h2>
-            <p>Spiced rice dish with meat or vegetables.</p>
-        </div>
-        <div class="card" onclick="openDish('mudhi-mansa')">
-            <h2>Mudhi Mansa</h2>
-            <p>Spicy mutton curry served with puffed rice.</p>
-        </div>
-        <div class="card" onclick="openDish('dalma')">
-            <h2>Dalma</h2>
-            <p>Vegetable and lentil stew cooked with spices.</p>
-        </div>
-        <div class="card" onclick="openDish('chhena-gaja')">
-            <h2>Chhena Gaja</h2>
-            <p>Fried cottage cheese sweets soaked in sugar syrup.</p>
-        </div>
-        <div class="card" onclick="openDish('maccha-saru')">
-            <h2>Maccha Saru</h2>
+        <div class="card" onclick="openDish('machha-besara')">
+            <img src="https://example.com/machha-besara.jpg" alt="Machha Besara">
+            <h2>Machha Besara</h2>
             <p>Fish curry cooked with mustard paste and spices.</p>
+            <p><strong>Ingredients:</strong> Fish, mustard paste, spices, tomatoes, onions.</p>
+            <p><strong>Preparation:</strong> Cook fish with mustard paste, spices, tomatoes, and onions.</p>
         </div>
-        <div class="card" onclick="openDish('khaja')">
-            <h2>Khaja</h2>
-            <p>Crunchy sweet made from flour, sugar, and ghee.</p>
+        <div class="card" onclick="openDish('bhindi-bhaja')">
+            <img src="https://example.com/bhindi-bhaja.jpg" alt="Bhindi Bhaja">
+            <h2>Bhindi Bhaja</h2>
+            <p>Okra slices marinated and fried until crispy.</p>
+            <p><strong>Ingredients:</strong> Okra, spices, oil.</p>
+            <p><strong>Preparation:</strong> Marinate okra slices with spices, fry until crispy.</p>
         </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+        <div class="card" onclick="openDish('enduri-pitha')">
+            <img src="https://example.com/enduri-pitha.jpg" alt="Enduri Pitha">
+            <h2>Enduri Pitha</h2>
+            <p>Steamed rice cake stuffed with coconut and jaggery.</p>
+            <p><strong>Ingredients:</strong> Rice flour, coconut, jaggery, banana leaves.</p>
+            <p><strong>Preparation:</strong> Make rice cake dough, stuff with coconut-jaggery mix, wrap in banana leaves, and steam.</p>
+        </div>
+        <div class="card" onclick="openDish('santula')">
+            <img src="https://example.com/santula.jpg" alt="Santula">
+            <h2>Santula</h2>
+            <p>Mixed vegetable curry with minimal spices, light and healthy.</p>
+            <p><strong>Ingredients:</strong> Mixed vegetables, panch phoron (five-spice mix), turmeric, mustard oil.</p>
+            <p><strong>Preparation:</strong> Cook mixed vegetables with panch phoron, turmeric, and mustard oil.</p>
+        </div>
+        <div class="card" onclick="openDish('machha-ghanta')">
+            <img src="https://example.com/machha-ghanta.jpg" alt="Machha Ghanta">
+            <h2>Machha Ghanta</h2>
+            <p>Fish and mixed vegetable curry</p>
+        </div>    

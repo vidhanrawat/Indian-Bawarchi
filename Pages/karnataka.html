@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karnataka Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Karnataka Cuisine</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,52 +26,66 @@
 
     <div class="container">
         <div class="card" onclick="openDish('bisi-bele-bath')">
+            <img src="https://example.com/bisi-bele-bath.jpg" alt="Bisi Bele Bath">
             <h2>Bisi Bele Bath</h2>
-            <p>A spicy rice dish cooked with lentils, vegetables, and special masala.</p>
-        </div>
-        <div class="card" onclick="openDish('ragi-mudde')">
-            <h2>Ragi Mudde</h2>
-            <p>Steamed balls made from finger millet flour, typically served with curry.</p>
+            <p>Spicy rice dish cooked with lentils, vegetables, and spices.</p>
+            <p><strong>Ingredients:</strong> Rice, toor dal, vegetables (carrots, peas, beans), tamarind, spices (cinnamon, cloves, coriander), ghee.</p>
+            <p><strong>Preparation:</strong> Cook rice and dal, sauté vegetables, mix with spices and tamarind, temper with ghee.</p>
         </div>
         <div class="card" onclick="openDish('masala-dosa')">
+            <img src="https://example.com/masala-dosa.jpg" alt="Masala Dosa">
             <h2>Masala Dosa</h2>
-            <p>Thin, crispy rice pancakes filled with spiced potato mixture.</p>
+            <p>Thin, crispy rice and lentil crepes filled with spiced potato filling.</p>
+            <p><strong>Ingredients:</strong> Rice, urad dal, potatoes, onions, mustard seeds, turmeric, curry leaves, oil.</p>
+            <p><strong>Preparation:</strong> Make dosa batter, cook dosas, fill with spiced potato mixture.</p>
         </div>
-        <div class="card" onclick="openDish('mangalore-buns')">
-            <h2>Mangalore Buns</h2>
-            <p>Sweet, soft, and fluffy deep-fried bread made from banana and flour.</p>
+        <div class="card" onclick="openDish('ragi-mudde')">
+            <img src="https://example.com/ragi-mudde.jpg" alt="Ragi Mudde">
+            <h2>Ragi Mudde</h2>
+            <p>Steamed ragi (finger millet) balls, a staple in Karnataka.</p>
+            <p><strong>Ingredients:</strong> Ragi flour, water.</p>
+            <p><strong>Preparation:</strong> Cook ragi flour with water into a thick dough, shape into balls.</p>
         </div>
-        <div class="card" onclick="openDish('neer-dosa')">
-            <h2>Neer Dosa</h2>
-            <p>Soft, lacy rice crepes served with coconut chutney and curry.</p>
+        <div class="card" onclick="openDish('akki-rotti')">
+            <img src="https://example.com/akki-rotti.jpg" alt="Akki Rotti">
+            <h2>Akki Rotti</h2>
+            <p>Rice flour flatbread with various additions like onions, coriander, and spices.</p>
+            <p><strong>Ingredients:</strong> Rice flour, onions, coriander, green chilies, cumin seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Mix rice flour with vegetables, spices, and water, cook on a griddle.</p>
         </div>
-        <div class="card" onclick="openDish('obattu')">
-            <h2>Obattu</h2>
-            <p>Sweet flatbread stuffed with a mixture of jaggery and lentils.</p>
+        <div class="card" onclick="openDish('uppe-saaru')">
+            <img src="https://example.com/uppe-saaru.jpg" alt="Uppe Saaru">
+            <h2>Uppe Saaru</h2>
+            <p>Spicy and tangy soup made with lentils and spices.</p>
+            <p><strong>Ingredients:</strong> Toor dal, tamarind, tomatoes, garlic, red chilies, coriander, cumin, mustard seeds, curry leaves.</p>
+            <p><strong>Preparation:</strong> Cook lentils, tomatoes, and spices, temper with mustard seeds and curry leaves.</p>
         </div>
-        <div class="card" onclick="openDish('uppittu')">
-            <h2>Uppittu</h2>
-            <p>Savory semolina dish cooked with vegetables and spices.</p>
+        <div class="card" onclick="openDish('mangalorean-fish-curry')">
+            <img src="https://example.com/mangalorean-fish-curry.jpg" alt="Mangalorean Fish Curry">
+            <h2>Mangalorean Fish Curry</h2>
+            <p>Spicy coconut-based curry with fish.</p>
+            <p><strong>Ingredients:</strong> Fish, coconut, tamarind, red chilies, coriander, turmeric, mustard seeds, curry leaves.</p>
+            <p><strong>Preparation:</strong> Cook fish in coconut-tamarind gravy with spices.</p>
         </div>
-        <div class="card" onclick="openDish('kesari-bath')">
-            <h2>Kesari Bath</h2>
-            <p>A sweet semolina dessert flavored with saffron and garnished with nuts.</p>
+        <div class="card" onclick="openDish('mysore-pak')">
+            <img src="https://example.com/mysore-pak.jpg" alt="Mysore Pak">
+            <h2>Mysore Pak</h2>
+            <p>Rich and decadent sweet made with gram flour, ghee, and sugar.</p>
+            <p><strong>Ingredients:</strong> Gram flour, ghee, sugar.</p>
+            <p><strong>Preparation:</strong> Cook gram flour in ghee, add sugar syrup, set into a sweet cake.</p>
         </div>
-        <div class="card" onclick="openDish('kundapura-koli-saaru')">
-            <h2>Kundapura Koli Saaru</h2>
-            <p>Spicy chicken curry from the coastal region of Karnataka.</p>
+        <div class="card" onclick="openDish('chitranna')">
+            <img src="https://example.com/chitranna.jpg" alt="Chitranna">
+            <h2>Chitranna</h2>
+            <p>Lemon rice tempered with mustard seeds, curry leaves, and peanuts.</p>
+            <p><strong>Ingredients:</strong> Rice, lemon, mustard seeds, curry leaves, peanuts, turmeric, oil.</p>
+            <p><strong>Preparation:</strong> Cook rice, temper with spices and lemon juice.</p>
         </div>
-        <div class="card" onclick="openDish('bonda-soup')">
-            <h2>Bonda Soup</h2>
-            <p>Lentil soup served with spicy deep-fried dumplings.</p>
+        <div class="card" onclick="openDish('rava-idli')">
+            <img src="https://example.com/rava-idli.jpg" alt="Rava Idli">
+            <h2>Rava Idli</h2>
+            <p>Soft and fluffy steamed semolina cakes.</p>
+            <p><strong>Ingredients:</strong> Semolina (rava), yogurt, baking soda, mustard seeds, curry leaves, cashews, oil.</p>
+            <p><strong>Preparation:</strong> Make batter, steam in idli molds until cooked.</p>
         </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+           

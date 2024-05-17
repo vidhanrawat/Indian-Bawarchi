@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jharkhand Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Jharkhand Cuisine</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,53 +25,71 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('litti-chokha')">
-            <h2>Litti Chokha</h2>
-            <p>Roasted dough balls stuffed with sattu, served with mashed vegetables.</p>
+        <div class="card" onclick="openDish('thekua')">
+            <img src="https://example.com/thekua.jpg" alt="Thekua">
+            <h2>Thekua</h2>
+            <p>Deep-fried sweet made from wheat flour, jaggery, and coconut.</p>
+            <p><strong>Ingredients:</strong> Wheat flour, jaggery, coconut, cardamom, ghee.</p>
+            <p><strong>Preparation:</strong> Mix wheat flour, jaggery, coconut, and cardamom, deep-fry until golden brown.</p>
         </div>
         <div class="card" onclick="openDish('dhuska')">
+            <img src="https://example.com/dhuska.jpg" alt="Dhuska">
             <h2>Dhuska</h2>
             <p>Deep-fried rice and lentil pancakes.</p>
+            <p><strong>Ingredients:</strong> Rice, chana dal, urad dal, cumin seeds, green chilies, ginger, salt, oil.</p>
+            <p><strong>Preparation:</strong> Soak rice and dals, grind with spices, ferment, and deep-fry into pancakes.</p>
         </div>
-        <div class="card" onclick="openDish('thekua')">
-            <h2>Thekua</h2>
-            <p>Deep-fried sweet snack made with whole wheat flour, jaggery, and coconut.</p>
+        <div class="card" onclick="openDish('pittha')">
+            <img src="https://example.com/pittha.jpg" alt="Pittha">
+            <h2>Pittha</h2>
+            <p>Steamed dumplings stuffed with spiced lentils or vegetables.</p>
+            <p><strong>Ingredients:</strong> Rice flour, lentils/vegetables, spices, oil.</p>
+            <p><strong>Preparation:</strong> Make dough with rice flour, stuff with spiced lentils or vegetables, steam until cooked.</p>
+        </div>
+        <div class="card" onclick="openDish('kodo-ko-roti')">
+            <img src="https://example.com/kodo-ko-roti.jpg" alt="Kodo Ko Roti">
+            <h2>Kodo Ko Roti</h2>
+            <p>Millet flatbread made from kodo millet flour.</p>
+            <p><strong>Ingredients:</strong> Kodo millet flour, water, salt, ghee.</p>
+            <p><strong>Preparation:</strong> Mix kodo millet flour with water, make dough, roll into flatbreads, and cook on a griddle.</p>
+        </div>
+        <div class="card" onclick="openDish('sarso-saag')">
+            <img src="https://example.com/sarso-saag.jpg" alt="Sarso Saag">
+            <h2>Sarso Saag</h2>
+            <p>Mustard greens cooked with spices and served with makki ki roti.</p>
+            <p><strong>Ingredients:</strong> Mustard greens, spinach, garlic, green chilies, spices, cornmeal, ghee.</p>
+            <p><strong>Preparation:</strong> Cook greens with spices, serve with cornmeal flatbread.</p>
         </div>
         <div class="card" onclick="openDish('pitha')">
+            <img src="https://example.com/pitha.jpg" alt="Pitha">
             <h2>Pitha</h2>
-            <p>Steamed rice flour dumplings stuffed with sweet or savory fillings.</p>
-        </div>
-        <div class="card" onclick="openDish('malpua')">
-            <h2>Malpua</h2>
-            <p>Sweet pancakes soaked in sugar syrup.</p>
+            <p>Traditional sweet or savory rice cakes.</p>
+            <p><strong>Ingredients:</strong> Rice flour, coconut, jaggery/sugar, sesame seeds, ghee.</p>
+            <p><strong>Preparation:</strong> Make dough with rice flour, stuff with sweet or savory fillings, steam or deep-fry.</p>
         </div>
         <div class="card" onclick="openDish('chilka-roti')">
+            <img src="https://example.com/chilka-roti.jpg" alt="Chilka Roti">
             <h2>Chilka Roti</h2>
-            <p>Thin rice flour pancakes.</p>
+            <p>Rice flour flatbread with a crispy texture.</p>
+            <p><strong>Ingredients:</strong> Rice flour, water, salt, ghee.</p>
+            <p><strong>Preparation:</strong> Mix rice flour with water, roll into flatbreads, cook on a griddle until crispy.</p>
         </div>
-        <div class="card" onclick="openDish('ghugni')">
-            <h2>Ghugni</h2>
-            <p>Spicy chickpea curry.</p>
+        <div class="card" onclick="openDish('malpua')">
+            <img src="https://example.com/malpua.jpg" alt="Malpua">
+            <h2>Malpua</h2>
+            <p>Deep-fried pancakes served with sugar syrup.</p>
+            <p><strong>Ingredients:</strong> Flour, sugar, milk, fennel seeds, cardamom, ghee.</p>
+            <p><strong>Preparation:</strong> Make a batter with flour, sugar, and spices, deep-fry into pancakes, serve with syrup.</p>
         </div>
-        <div class="card" onclick="openDish('rugra')">
-            <h2>Rugra</h2>
-            <p>Wild mushroom curry.</p>
+        <div class="card" onclick="openDish('daliya')">
+            <img src="https://example.com/daliya.jpg" alt="Daliya">
+            <h2>Daliya</h2>
+            <p>Porridge made from cracked wheat or barley.</p>
+            <p><strong>Ingredients:</strong> Cracked wheat/barley, milk, sugar, cardamom, nuts.</p>
+            <p><strong>Preparation:</strong> Cook cracked wheat/barley with milk and sugar, garnish with cardamom and nuts.</p>
         </div>
-        <div class="card" onclick="openDish('mitha-khaja')">
-            <h2>Mitha Khaja</h2>
-            <p>Sweet flaky pastry.</p>
-        </div>
-        <div class="card" onclick="openDish('tilkut')">
-            <h2>Tilkut</h2>
-            <p>Sesame seed candy.</p>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+        <div class="card" onclick="openDish('chura-dahi')">
+            <img src="https://example.com/chura-dahi.jpg" alt="Chura Dahi">
+            <h2>Chura Dahi</h2>
+            <p>Flattened rice soaked in yogurt.</p>
+            <p><strong>Ingredients:</strong> Flatt

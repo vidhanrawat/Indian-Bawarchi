@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajasthan Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Rajasthan Delicacies</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,52 +26,70 @@
 
     <div class="container">
         <div class="card" onclick="openDish('dal-bati-churma')">
+            <img src="https://example.com/dal-bati-churma.jpg" alt="Dal Bati Churma">
             <h2>Dal Bati Churma</h2>
-            <p>Combo dish of lentil curry, baked wheat rolls, and sweet crumble.</p>
+            <p>Three-part meal: lentils (dal), baked wheat balls (bati), and sweet crumbled bread (churma).</p>
+            <p><strong>Ingredients:</strong> Lentils, wheat flour, ghee, sugar, spices.</p>
+            <p><strong>Preparation:</strong> Cook lentils, bake wheat balls, crush and mix sweet bread.</p>
         </div>
-        <div class="card" onclick="openDish('gatte-ki-sabzi')">
-            <h2>Gatte Ki Sabzi</h2>
-            <p>Gram flour dumplings cooked in spicy yogurt gravy.</p>
+        <div class="card" onclick="openDish('gatte-ki-sabji')">
+            <img src="https://example.com/gatte-ki-sabji.jpg" alt="Gatte ki Sabji">
+            <h2>Gatte ki Sabji</h2>
+            <p>Gram flour (besan) dumplings in spicy yogurt-based curry.</p>
+            <p><strong>Ingredients:</strong> Gram flour, yogurt, spices, oil.</p>
+            <p><strong>Preparation:</strong> Make gram flour dumplings, cook in spicy yogurt curry.</p>
+        </div>
+        <div class="card" onclick="openDish('ker-saangri')">
+            <img src="https://example.com/ker-saangri.jpg" alt="Ker Sangri">
+            <h2>Ker Sangri</h2>
+            <p>A traditional Rajasthani dish made with dried desert beans (ker) and dried berries (saangri).</p>
+            <p><strong>Ingredients:</strong> Ker (dried beans), saangri (dried berries), spices, oil.</p>
+            <p><strong>Preparation:</strong> Soak and cook dried beans and berries with spices.</p>
         </div>
         <div class="card" onclick="openDish('laal-maas')">
+            <img src="https://example.com/laal-maas.jpg" alt="Laal Maas">
             <h2>Laal Maas</h2>
-            <p>Spicy mutton curry cooked with red chili paste.</p>
+            <p>Spicy mutton curry cooked with red chilies and yogurt.</p>
+            <p><strong>Ingredients:</strong> Mutton, red chilies, yogurt, spices, ghee.</p>
+            <p><strong>Preparation:</strong> Cook mutton with red chilies, yogurt, and spices.</p>
         </div>
-        <div class="card" onclick="openDish('ker-saangri')">
-            <h2>Ker Sangri</h2>
-            <p>Dried berries and beans cooked with spices.</p>
-        </div>
-        <div class="card" onclick="openDish('papad-ki-sabzi')">
-            <h2>Papad Ki Sabzi</h2>
-            <p>Crispy papads cooked in a tangy gravy.</p>
+        <div class="card" onclick="openDish('papad-ki-sabji')">
+            <img src="https://example.com/papad-ki-sabji.jpg" alt="Papad ki Sabji">
+            <h2>Papad ki Sabji</h2>
+            <p>Crispy papads cooked in a spicy gravy.</p>
+            <p><strong>Ingredients:</strong> Papads, spices, tomatoes, onions.</p>
+            <p><strong>Preparation:</strong> Break papads, cook in spicy gravy with tomatoes and onions.</p>
         </div>
         <div class="card" onclick="openDish('ghevar')">
+            <img src="https://example.com/ghevar.jpg" alt="Ghevar">
             <h2>Ghevar</h2>
-            <p>Deep-fried sweet disc topped with syrup and nuts.</p>
-        </div>
-        <div class="card" onclick="openDish('mirchi-bada')">
-            <h2>Mirchi Bada</h2>
-            <p>Spicy green chili fritters served with chutney.</p>
-        </div>
-        <div class="card" onclick="openDish('ker-saangri')">
-            <h2>Ker Sangri</h2>
-            <p>Dried berries and beans cooked with spices.</p>
-        </div>
-        <div class="card" onclick="openDish('dal-pakwan')">
-            <h2>Dal Pakwan</h2>
-            <p>Crispy wheat crackers served with dal curry.</p>
+            <p>Deep-fried sweet made from flour, soaked in sugar syrup, and topped with almonds.</p>
+            <p><strong>Ingredients:</strong> Flour, ghee, sugar syrup, almonds.</p>
+            <p><strong>Preparation:</strong> Fry flour batter, soak in sugar syrup, garnish with almonds.</p>
         </div>
         <div class="card" onclick="openDish('mawa-kachori')">
+            <img src="https://example.com/mawa-kachori.jpg" alt="Mawa Kachori">
             <h2>Mawa Kachori</h2>
-            <p>Deep-fried sweet pastry filled with khoya and nuts.</p>
+            <p>Deep-fried pastry filled with sweetened condensed milk (mawa) and nuts.</p>
+            <p><strong>Ingredients:</strong> Pastry dough, mawa, nuts, sugar syrup.</p>
+            <p><strong>Preparation:</strong> Fill pastry with mawa and nuts, deep fry, soak in sugar syrup.</p>
         </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+        <div class="card" onclick="openDish('pyaaz-kachori')">
+            <img src="https://example.com/pyaaz-kachori.jpg" alt="Pyaaz Kachori">
+            <h2>Pyaaz Kachori</h2>
+            <p>Deep-fried pastry filled with spiced onion mixture.</p>
+            <p><strong>Ingredients:</strong> Pastry dough, onions, spices, oil.</p>
+            <p><strong>Preparation:</strong> Fill pastry with spiced onion mixture, deep fry until golden.</p>
+        </div>
+        <div class="card" onclick="openDish('dal-baati-churma')">
+            <img src="https://example.com/dal-baati-churma.jpg" alt="Dal Baati Churma">
+            <h2>Dal Baati Churma</h2>
+            <p>Similar to Dal Bati Churma, but with baked wheat balls (baati) instead of crumbled bread.</p>
+            <p><strong>Ingredients:</strong> Lentils, wheat flour, ghee, sugar, spices.</p>
+            <p><strong>Preparation:</strong> Cook lentils, bake wheat balls, serve with sweet churma.</p>
+        </div>
+        <div class="card" onclick="openDish('mohan-thaal')">
+            <img src="https://example.com/mohan-thaal.jpg" alt="Mohan Thaal">
+            <h2>Mohan Thaal</h2>
+            <p>A rich, sweet dessert made with gram flour, ghee, sugar, and nuts.</p>
+        </div>

@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maharashtra Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Maharashtrian Cuisine</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,53 +25,72 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('pav-bhaji')">
-            <h2>Pav Bhaji</h2>
-            <p>Spicy mashed vegetable curry served with buttered bread rolls.</p>
-        </div>
         <div class="card" onclick="openDish('vada-pav')">
+            <img src="https://example.com/vada-pav.jpg" alt="Vada Pav">
             <h2>Vada Pav</h2>
-            <p>Spicy potato fritter served in a bread roll with chutneys.</p>
+            <p>Spicy potato fritter sandwiched in a pav (bread) with chutneys.</p>
+            <p><strong>Ingredients:</strong> Potatoes, gram flour, pav bread, garlic chutney, tamarind chutney, spices.</p>
+            <p><strong>Preparation:</strong> Make potato fritters, assemble in pav with chutneys.</p>
         </div>
-        <div class="card" onclick="openDish('puran-poli')">
-            <h2>Puran Poli</h2>
-            <p>Sweet flatbread stuffed with a mixture of jaggery and lentils.</p>
+        <div class="card" onclick="openDish('pav-bhaji')">
+            <img src="https://example.com/pav-bhaji.jpg" alt="Pav Bhaji">
+            <h2>Pav Bhaji</h2>
+            <p>Mixed vegetable curry served with buttered pav (bread).</p>
+            <p><strong>Ingredients:</strong> Potatoes, peas, onions, tomatoes, bell peppers, pav bread, butter, spices.</p>
+            <p><strong>Preparation:</strong> Cook vegetables, mash, serve with buttered pav.</p>
         </div>
         <div class="card" onclick="openDish('misal-pav')">
+            <img src="https://example.com/misal-pav.jpg" alt="Misal Pav">
             <h2>Misal Pav</h2>
-            <p>Spicy sprouted bean curry served with bread rolls.</p>
+            <p>Spicy sprout curry served with pav and farsan (crispy mix).</p>
+            <p><strong>Ingredients:</strong> Mixed sprouts, onions, tomatoes, farsan, pav bread, spices.</p>
+            <p><strong>Preparation:</strong> Cook sprouts, serve with pav, and garnish with farsan.</p>
         </div>
-        <div class="card" onclick="openDish('bhakarwadi')">
-            <h2>Bhakarwadi</h2>
-            <p>Spicy, crispy pinwheel snacks made from gram flour.</p>
+        <div class="card" onclick="openDish('puran-poli')">
+            <img src="https://example.com/puran-poli.jpg" alt="Puran Poli">
+            <h2>Puran Poli</h2>
+            <p>Sweet flatbread stuffed with a mixture of lentils, jaggery, and spices.</p>
+            <p><strong>Ingredients:</strong> Chana dal, jaggery, cardamom, flour, ghee.</p>
+            <p><strong>Preparation:</strong> Make stuffing, stuff in dough, cook with ghee.</p>
         </div>
-        <div class="card" onclick="openDish('modak')">
-            <h2>Modak</h2>
-            <p>Sweet dumplings filled with coconut and jaggery.</p>
-        </div>
-        <div class="card" onclick="openDish('solkadhi')">
-            <h2>Solkadhi</h2>
-            <p>Refreshing drink made from coconut milk and kokum.</p>
-        </div>
-        <div class="card" onclick="openDish('thalipeeth')">
-            <h2>Thalipeeth</h2>
-            <p>Multi-grain flatbread spiced with herbs and vegetables.</p>
+        <div class="card" onclick="openDish('bharli-vangi')">
+            <img src="https://example.com/bharli-vangi.jpg" alt="Bharli Vangi">
+            <h2>Bharli Vangi</h2>
+            <p>Stuffed baby eggplants cooked in a spicy masala.</p>
+            <p><strong>Ingredients:</strong> Baby eggplants, coconut, peanuts, spices.</p>
+            <p><strong>Preparation:</strong> Stuff eggplants with masala, cook until tender.</p>
         </div>
         <div class="card" onclick="openDish('sabudana-khichdi')">
+            <img src="https://example.com/sabudana-khichdi.jpg" alt="Sabudana Khichdi">
             <h2>Sabudana Khichdi</h2>
-            <p>Stir-fried tapioca pearls with peanuts and potatoes.</p>
+            <p>Tapioca pearls cooked with peanuts, potatoes, and spices.</p>
+            <p><strong>Ingredients:</strong> Sabudana (tapioca pearls), peanuts, potatoes, spices.</p>
+            <p><strong>Preparation:</strong> Soak sabudana, cook with potatoes, peanuts, and spices.</p>
+        </div>
+        <div class="card" onclick="openDish('kothimbir-vadi')">
+            <img src="https://example.com/kothimbir-vadi.jpg" alt="Kothimbir Vadi">
+            <h2>Kothimbir Vadi</h2>
+            <p>Coriander and gram flour fritters.</p>
+            <p><strong>Ingredients:</strong> Coriander leaves, gram flour, spices.</p>
+            <p><strong>Preparation:</strong> Make batter, steam, slice, and shallow fry.</p>
+        </div>
+        <div class="card" onclick="openDish('modak')">
+            <img src="https://example.com/modak.jpg" alt="Modak">
+            <h2>Modak</h2>
+            <p>Steamed sweet dumplings filled with coconut and jaggery.</p>
+            <p><strong>Ingredients:</strong> Rice flour, coconut, jaggery, cardamom.</p>
+            <p><strong>Preparation:</strong> Make dough, fill with coconut-jaggery mixture, steam.</p>
         </div>
         <div class="card" onclick="openDish('shrikhand')">
+            <img src="https://example.com/shrikhand.jpg" alt="Shrikhand">
             <h2>Shrikhand</h2>
-            <p>Sweetened yogurt dessert flavored with saffron and cardamom.</p>
+            <p>Sweet strained yogurt flavored with saffron and cardamom.</p>
+            <p><strong>Ingredients:</strong> Yogurt, sugar, saffron, cardamom, nuts.</p>
+            <p><strong>Preparation:</strong> Strain yogurt, mix with sugar and flavors, chill.</p>
         </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+        <div class="card" onclick="openDish('kande-pohe')">
+            <img src="https://example.com/kande-pohe.jpg" alt="Kande Pohe">
+            <h2>Kande Pohe</h2>
+            <p>Flattened rice cooked with onions and spices.</p>
+            <p><strong>Ingredients:</strong> Poha (flattened rice), onions, mustard seeds, turmeric, curry leaves.</p>
+           

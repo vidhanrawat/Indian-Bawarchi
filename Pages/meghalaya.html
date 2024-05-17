@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meghalaya Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Meghalaya Delicacies</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,52 +26,82 @@
 
     <div class="container">
         <div class="card" onclick="openDish('jadoh')">
+            <img src="https://example.com/jadoh.jpg" alt="Jadoh">
             <h2>Jadoh</h2>
-            <p>Red rice cooked with pork, turmeric, and local spices.</p>
+            <p>Flavored rice dish with meat (usually pork) and spices.</p>
+            <p><strong>Ingredients:</strong> Rice, pork, ginger, garlic, onion, turmeric, black pepper, bay leaves.</p>
+            <p><strong>Preparation:</strong> Cook rice with spices. Separately, cook pork with spices, then mix with cooked rice.</p>
         </div>
-        <div class="card" onclick="openDish('dohneiiong')">
-            <h2>Dohneiiong</h2>
-            <p>Pork cooked with black sesame seed paste.</p>
-        </div>
-        <div class="card" onclick="openDish('nakham-bitchi')">
-            <h2>Nakham Bitchi</h2>
-            <p>Spicy and tangy soup made from dry fish.</p>
-        </div>
-        <div class="card" onclick="openDish('pumaloi')">
-            <h2>Pumaloi</h2>
-            <p>Steamed rice flour dish served with meat or vegetables.</p>
-        </div>
-        <div class="card" onclick="openDish('minil-songa')">
-            <h2>Minil Songa</h2>
-            <p>Sticky rice cooked with bamboo shoot and pork.</p>
-        </div>
-        <div class="card" onclick="openDish('tungrymbai')">
-            <h2>Tungrymbai</h2>
-            <p>Fermented soybean paste cooked with pork and ginger.</p>
-        </div>
-        <div class="card" onclick="openDish('kyat')">
-            <h2>Kyat</h2>
-            <p>Local rice beer traditionally brewed in Meghalaya.</p>
+        <div class="card" onclick="openDish('doh-nei-iong')">
+            <img src="https://example.com/doh-nei-iong.jpg" alt="Doh Nei-Iong">
+            <h2>Doh Nei-Iong</h2>
+            <p>Pork cooked in black sesame paste.</p>
+            <p><strong>Ingredients:</strong> Pork, black sesame seeds, ginger, garlic, onion, chili, salt.</p>
+            <p><strong>Preparation:</strong> Roast sesame seeds, grind into paste. Cook pork with sesame paste and spices.</p>
         </div>
         <div class="card" onclick="openDish('pukhlein')">
+            <img src="https://example.com/pukhlein.jpg" alt="Pukhlein">
             <h2>Pukhlein</h2>
-            <p>Sweet deep-fried rice flour bread.</p>
+            <p>Sweet rice cake made with rice flour and jaggery.</p>
+            <p><strong>Ingredients:</strong> Rice flour, jaggery, coconut, cardamom, oil.</p>
+            <p><strong>Preparation:</strong> Mix rice flour, jaggery, and coconut. Shape into cakes and fry.</p>
         </div>
-        <div class="card" onclick="openDish('dohkhlieh')">
-            <h2>Dohkhlieh</h2>
-            <p>Pork salad mixed with onions, ginger, and green chilies.</p>
+        <div class="card" onclick="openDish('tungrymbai')">
+            <img src="https://example.com/tungrymbai.jpg" alt="Tungrymbai">
+            <h2>Tungrymbai</h2>
+            <p>Fermented soybean dish with pork or fish.</p>
+            <p><strong>Ingredients:</strong> Fermented soybeans, pork or fish, ginger, garlic, onion, chili.</p>
+            <p><strong>Preparation:</strong> Cook fermented soybeans with pork/fish and spices.</p>
         </div>
-        <div class="card" onclick="openDish('sakin-gata')">
-            <h2>Sakin Gata</h2>
-            <p>Sticky white rice cake layered with jaggery.</p>
+        <div class="card" onclick="openDish('pyrku')">
+            <img src="https://example.com/pyrku.jpg" alt="Pyrku">
+            <h2>Pyrku</h2>
+            <p>Spicy chutney made with fermented fish.</p>
+            <p><strong>Ingredients:</strong> Fermented fish, chili, onion, garlic, ginger, salt.</p>
+            <p><strong>Preparation:</strong> Grind fermented fish with spices into a chutney.</p>
+        </div>
+        <div class="card" onclick="openDish('doh-khlieh')">
+            <img src="https://example.com/doh-khlieh.jpg" alt="Doh Khlieh">
+            <h2>Doh Khlieh</h2>
+            <p>Salad made with minced pork, onions, and spices.</p>
+            <p><strong>Ingredients:</strong> Minced pork, onions, chili, lime juice, salt.</p>
+            <p><strong>Preparation:</strong> Mix minced pork with chopped onions, chili, lime juice, and salt.</p>
+        </div>
+        <div class="card" onclick="openDish('ja-stew')">
+            <img src="https://example.com/ja-stew.jpg" alt="Ja Stew">
+            <h2>Ja Stew</h2>
+            <p>Chicken stew with potatoes and vegetables.</p>
+            <p><strong>Ingredients:</strong> Chicken, potatoes, carrots, beans, spices, coconut milk.</p>
+            <p><strong>Preparation:</strong> Cook chicken with vegetables, spices, and coconut milk until tender.</p>
+        </div>
+        <div class="card" onclick="openDish('do-ondo')">
+            <img src="https://example.com/do-ondo.jpg" alt="Do Ondo">
+            <h2>Do Ondo</h2>
+            <p>Rice dumplings cooked with meat or vegetables.</p>
+            <p><strong>Ingredients:</strong> Rice flour, meat or vegetables, spices.</p>
+            <p><strong>Preparation:</strong> Shape rice flour dough into dumplings, cook with meat/vegetables and spices.</p>
+        </div>
+        <div class="card" onclick="openDish('doh-jem')">
+            <img src="https://example.com/doh-jem.jpg" alt="Doh Jem">
+            <h2>Doh Jem</h2>
+            <p>Fried pork fat with spices.</p>
+            <p><strong>Ingredients:</strong> Pork fat, chili, ginger, garlic, salt.</p>
+            <p><strong>Preparation:</strong> Fry pork fat with spices until crispy.</p>
+        </div>
+        <div class="card" onclick="openDish('putharo')">
+            <img src="https://example.com/putharo.jpg" alt="Putharo">
+            <h2>Putharo</h2>
+            <p>Steamed rice cakes served with pork or chicken curry.</p>
+            <p><strong>Ingredients:</strong> Rice, pork or chicken, spices.</p>
+            <p><strong>Preparation:</strong> Steam rice cakes, serve with curry.</p>
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script>
+        function openDish(dishName) {
+            // Logic to open dish details or link to a recipe page
+        }
+    </script>
 </body>
 
-</html>
+</

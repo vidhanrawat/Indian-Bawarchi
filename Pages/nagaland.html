@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nagaland Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Nagaland Delicacies</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,53 +25,71 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('pork-with-bamboo-shoot')">
-            <h2>Pork with Bamboo Shoot</h2>
-            <p>Smoked pork cooked with bamboo shoots and Naga spices.</p>
-        </div>
         <div class="card" onclick="openDish('axone')">
+            <img src="https://example.com/axone.jpg" alt="Axone">
             <h2>Axone</h2>
-            <p>Fermented soybean dish cooked with meat or vegetables.</p>
+            <p>Fermented soybean dish with local spices.</p>
+            <p><strong>Ingredients:</strong> Fermented soybeans, chili, garlic, ginger, bamboo shoots.</p>
+            <p><strong>Preparation:</strong> Cook fermented soybeans with spices and bamboo shoots.</p>
         </div>
-        <div class="card" onclick="openDish('naga-chicken-curry')">
-            <h2>Naga Chicken Curry</h2>
-            <p>Spicy chicken curry made with Naga chili and herbs.</p>
+        <div class="card" onclick="openDish('smoked-pork')">
+            <img src="https://example.com/smoked-pork.jpg" alt="Smoked Pork">
+            <h2>Smoked Pork</h2>
+            <p>Pork smoked and cooked with Naga herbs and spices.</p>
+            <p><strong>Ingredients:</strong> Smoked pork, Naga herbs, spices, bamboo shoots.</p>
+            <p><strong>Preparation:</strong> Cook smoked pork with Naga herbs, spices, and bamboo shoots.</p>
         </div>
-        <div class="card" onclick="openDish('fish-tenga')">
-            <h2>Fish Tenga</h2>
-            <p>Fish curry cooked with tomatoes and herbs.</p>
+        <div class="card" onclick="openDish('naga-style-fish-curry')">
+            <img src="https://example.com/naga-fish-curry.jpg" alt="Naga Style Fish Curry">
+            <h2>Naga Style Fish Curry</h2>
+            <p>Fish curry cooked with Naga spices and herbs.</p>
+            <p><strong>Ingredients:</strong> Fish, Naga spices, herbs, tomatoes, onions.</p>
+            <p><strong>Preparation:</strong> Cook fish with Naga spices, tomatoes, onions, and herbs.</p>
         </div>
-        <div class="card" onclick="openDish('smoked-beef-with-axone')">
-            <h2>Smoked Beef with Axone</h2>
-            <p>Smoked beef cooked with fermented soybeans.</p>
+        <div class="card" onclick="openDish('bamboo-shoot-fry')">
+            <img src="https://example.com/bamboo-shoot-fry.jpg" alt="Bamboo Shoot Fry">
+            <h2>Bamboo Shoot Fry</h2>
+            <p>Stir-fried bamboo shoots with Naga spices.</p>
+            <p><strong>Ingredients:</strong> Bamboo shoots, Naga spices, garlic, ginger, chili.</p>
+            <p><strong>Preparation:</strong> Stir-fry bamboo shoots with Naga spices, garlic, ginger, and chili.</p>
         </div>
-        <div class="card" onclick="openDish('naga-ghost-chili-pickle')">
-            <h2>Naga Ghost Chili Pickle</h2>
-            <p>Spicy pickle made from Naga ghost chilies.</p>
+        <div class="card" onclick="openDish('smoked-beef')">
+            <img src="https://example.com/smoked-beef.jpg" alt="Smoked Beef">
+            <h2>Smoked Beef</h2>
+            <p>Beef smoked and cooked with Naga spices.</p>
+            <p><strong>Ingredients:</strong> Smoked beef, Naga spices, garlic, ginger, onions.</p>
+            <p><strong>Preparation:</strong> Cook smoked beef with Naga spices, garlic, ginger, and onions.</p>
         </div>
-        <div class="card" onclick="openDish('boiled-vegetables-with-rice')">
-            <h2>Boiled Vegetables with Rice</h2>
-            <p>Simple boiled vegetables served with rice and chutney.</p>
+        <div class="card" onclick="openDish('naga-king-chili-pork')">
+            <img src="https://example.com/naga-king-chili-pork.jpg" alt="Naga King Chili Pork">
+            <h2>Naga King Chili Pork</h2>
+            <p>Spicy pork dish cooked with Naga King chilies.</p>
+            <p><strong>Ingredients:</strong> Pork, Naga King chilies, garlic, ginger, onions, spices.</p>
+            <p><strong>Preparation:</strong> Cook pork with Naga King chilies, garlic, ginger, onions, and spices.</p>
         </div>
-        <div class="card" onclick="openDish('khorika')">
-            <h2>Khorika</h2>
-            <p>Grilled meat skewers marinated with local spices.</p>
+        <div class="card" onclick="openDish('fermented-bamboo-shoot-chutney')">
+            <img src="https://example.com/fermented-bamboo-shoot-chutney.jpg" alt="Fermented Bamboo Shoot Chutney">
+            <h2>Fermented Bamboo Shoot Chutney</h2>
+            <p>Chutney made with fermented bamboo shoots and Naga spices.</p>
+            <p><strong>Ingredients:</strong> Fermented bamboo shoots, Naga spices, chili, garlic.</p>
+            <p><strong>Preparation:</strong> Grind fermented bamboo shoots with Naga spices, chili, and garlic to make chutney.</p>
         </div>
-        <div class="card" onclick="openDish('galho')">
-            <h2>Galho</h2>
-            <p>Rice porridge with vegetables and meat.</p>
+        <div class="card" onclick="openDish('naga-style-chicken-curry')">
+            <img src="https://example.com/naga-chicken-curry.jpg" alt="Naga Style Chicken Curry">
+            <h2>Naga Style Chicken Curry</h2>
+            <p>Chicken curry cooked with Naga spices and herbs.</p>
+            <p><strong>Ingredients:</strong> Chicken, Naga spices, herbs, tomatoes, onions.</p>
+            <p><strong>Preparation:</strong> Cook chicken with Naga spices, tomatoes, onions, and herbs.</p>
         </div>
-        <div class="card" onclick="openDish('anishi')">
-            <h2>Anishi</h2>
-            <p>Fermented yam leaves cooked with pork or fish.</p>
+        <div class="card" onclick="openDish('pork-belly-with-bamboo-shoot')">
+            <img src="https://example.com/pork-belly-with-bamboo-shoot.jpg" alt="Pork Belly with Bamboo Shoot">
+            <h2>Pork Belly with Bamboo Shoot</h2>
+            <p>Pork belly cooked with bamboo shoots and Naga spices.</p>
+            <p><strong>Ingredients:</strong> Pork belly, bamboo shoots, Naga spices, garlic, ginger.</p>
+            <p><strong>Preparation:</strong> Cook pork belly with bamboo shoots, Naga spices, garlic, and ginger.</p>
         </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+        <div class="card" onclick="openDish('naga-style-beef-stew')">
+            <img src="https://example.com/naga-beef-stew.jpg" alt="Naga Style Beef Stew">
+            <h2>Naga Style Beef Stew</h2>
+            <p>Beef stew cooked with Naga spices and vegetables.</p>
+            <p><strong>Ingredients:</strong

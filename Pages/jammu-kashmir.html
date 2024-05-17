@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jammu & Kashmir Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Jammu & Kashmir Delights</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,52 +26,70 @@
 
     <div class="container">
         <div class="card" onclick="openDish('rogan-josh')">
+            <img src="https://example.com/rogan-josh.jpg" alt="Rogan Josh">
             <h2>Rogan Josh</h2>
-            <p>Aromatic lamb dish cooked in a blend of yogurt and spices.</p>
-        </div>
-        <div class="card" onclick="openDish('yakhni')">
-            <h2>Yakhni</h2>
-            <p>Mutton cooked in a light yogurt-based gravy with mild spices.</p>
-        </div>
-        <div class="card" onclick="openDish('dum-aloo')">
-            <h2>Dum Aloo</h2>
-            <p>Potatoes cooked in a rich and spicy yogurt-based gravy.</p>
+            <p>Flavorful lamb curry cooked with spices like fennel and Kashmiri red chili.</p>
+            <p><strong>Ingredients:</strong> Lamb, yogurt, onions, tomatoes, ginger-garlic paste, spices (fennel, Kashmiri red chili, cardamom, cinnamon), ghee/oil.</p>
+            <p><strong>Preparation:</strong> Marinate lamb, cook with spices and yogurt until tender.</p>
         </div>
         <div class="card" onclick="openDish('gushtaba')">
+            <img src="https://example.com/gushtaba.jpg" alt="Gushtaba">
             <h2>Gushtaba</h2>
-            <p>Minced mutton balls cooked in a creamy yogurt gravy.</p>
+            <p>Minced mutton meatballs cooked in yogurt gravy.</p>
+            <p><strong>Ingredients:</strong> Minced mutton, yogurt, spices (cloves, cardamom, cinnamon), ghee, milk.</p>
+            <p><strong>Preparation:</strong> Make meatballs, cook in yogurt gravy with spices.</p>
+        </div>
+        <div class="card" onclick="openDish('yakhni')">
+            <img src="https://example.com/yakhni.jpg" alt="Yakhni">
+            <h2>Yakhni</h2>
+            <p>Yogurt-based curry with meat or vegetables.</p>
+            <p><strong>Ingredients:</strong> Meat/vegetables, yogurt, spices (fennel, cloves, cardamom), ghee, mint leaves.</p>
+            <p><strong>Preparation:</strong> Cook meat/vegetables in yogurt gravy with spices.</p>
+        </div>
+        <div class="card" onclick="openDish('roth')">
+            <img src="https://example.com/roth.jpg" alt="Roth">
+            <h2>Roth</h2>
+            <p>Sweet bread made with rice flour, ghee, and sugar.</p>
+            <p><strong>Ingredients:</strong> Rice flour, ghee, sugar, cardamom, almonds.</p>
+            <p><strong>Preparation:</strong> Knead dough, shape into discs, cook with ghee, and coat with sugar.</p>
+        </div>
+        <div class="card" onclick="openDish('kahwa')">
+            <img src="https://example.com/kahwa.jpg" alt="Kahwa">
+            <h2>Kahwa</h2>
+            <p>Traditional Kashmiri green tea infused with spices.</p>
+            <p><strong>Ingredients:</strong> Green tea leaves, saffron, cardamom, cinnamon, almonds, honey.</p>
+            <p><strong>Preparation:</strong> Brew green tea with spices, garnish with almonds and saffron, sweeten with honey.</p>
+        </div>
+        <div class="card" onclick="openDish('dum-aloo')">
+            <img src="https://example.com/dum-aloo.jpg" alt="Dum Aloo">
+            <h2>Dum Aloo</h2>
+            <p>Potatoes cooked in a spicy yogurt-based gravy.</p>
+            <p><strong>Ingredients:</strong> Potatoes, yogurt, onions, tomatoes, ginger-garlic paste, spices (Kashmiri red chili, fennel, cinnamon), ghee/oil.</p>
+            <p><strong>Preparation:</strong> Cook potatoes in yogurt gravy with spices until tender.</p>
+        </div>
+        <div class="card" onclick="openDish('shufta')">
+            <img src="https://example.com/shufta.jpg" alt="Shufta">
+            <h2>Shufta</h2>
+            <p>Rich dry fruit dessert with saffron and spices.</p>
+            <p><strong>Ingredients:</strong> Almonds, cashews, raisins, coconut, saffron, cardamom, sugar.</p>
+            <p><strong>Preparation:</strong> Roast dry fruits, mix with saffron and sugar syrup, garnish with coconut.</p>
+        </div>
+        <div class="card" onclick="openDish('tabak-maaz')">
+            <img src="https://example.com/tabak-maaz.jpg" alt="Tabak Maaz">
+            <h2>Tabak Maaz</h2>
+            <p>Deep-fried lamb ribs cooked with spices.</p>
+            <p><strong>Ingredients:</strong> Lamb ribs, yogurt, spices (ginger, fennel, Kashmiri red chili), ghee/oil.</p>
+            <p><strong>Preparation:</strong> Marinate ribs, deep-fry, then cook in yogurt gravy with spices.</p>
         </div>
         <div class="card" onclick="openDish('modur-pulao')">
+            <img src="https://example.com/modur-pulao.jpg" alt="Modur Pulao">
             <h2>Modur Pulao</h2>
-            <p>Sweet saffron rice with dry fruits and aromatic spices.</p>
+            <p>Sweet saffron-flavored rice.</p>
+            <p><strong>Ingredients:</strong> Basmati rice, saffron, ghee, nuts, sugar.</p>
+            <p><strong>Preparation:</strong> Cook rice with saffron, sugar, and nuts in ghee.</p>
         </div>
-        <div class="card" onclick="openDish('haak-saag')">
-            <h2>Haak Saag</h2>
-            <p>Simple and nutritious collard greens cooked with mustard oil and spices.</p>
-        </div>
-        <div class="card" onclick="openDish('kaanti')">
-            <h2>Kaanti</h2>
-            <p>Spicy lamb curry with a blend of aromatic spices.</p>
-        </div>
-        <div class="card" onclick="openDish('seekh-kebab')">
-            <h2>Seekh Kebab</h2>
-            <p>Grilled minced meat skewers infused with spices.</p>
-        </div>
-        <div class="card" onclick="openDish('tabakh-maaz')">
-            <h2>Tabakh Maaz</h2>
-            <p>Fried lamb ribs marinated with yogurt and spices.</p>
-        </div>
-        <div class="card" onclick="openDish('kalaadi')">
-            <h2>Kalaadi</h2>
-            <p>Traditional cheese served hot with bread.</p>
-        </div>
-    </div>
+        <div class="card" onclick="openDish('khatte-baingan')">
+            <img src="https://example.com/khatte-baingan.jpg" alt="Khatte Baingan">
+            <h2>Khatte Baingan</h2>
+            <p>Sour
 
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>

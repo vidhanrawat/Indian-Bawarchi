@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goa Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,48 +25,77 @@
     </div>
 
     <div class="container">
+        <div class="card" onclick="openDish('prawn-balagaanchi')">
+            <img src="https://example.com/prawn-balagaanchi.jpg" alt="Prawn Balagaanchi">
+            <h2>Prawn Balagaanchi</h2>
+            <p>Spicy prawn curry with coconut and tamarind.</p>
+            <p><strong>Ingredients:</strong> Prawns, coconut milk, tamarind, red chilies, garlic, turmeric, coriander seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook prawns with coconut milk and tamarind, and add a spice paste made from red chilies, garlic, and coriander seeds.</p>
+        </div>
         <div class="card" onclick="openDish('goan-fish-curry')">
+            <img src="https://example.com/goan-fish-curry.jpg" alt="Goan Fish Curry">
             <h2>Goan Fish Curry</h2>
-            <p>A traditional Goan curry made with fish, coconut, and spices.</p>
+            <p>Traditional Goan curry with coconut milk and spices.</p>
+            <p><strong>Ingredients:</strong> Fish, coconut milk, onions, tomatoes, green chilies, garlic, ginger, turmeric, red chili powder, coriander powder, tamarind, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook fish with a mixture of coconut milk, spices, and tamarind for a tangy and flavorful curry.</p>
         </div>
         <div class="card" onclick="openDish('bebinca')">
+            <img src="https://example.com/bebinca.jpg" alt="Bebinca">
             <h2>Bebinca</h2>
-            <p>Rich Goan layered dessert made with coconut milk, eggs, and flour.</p>
-        </div>
-        <div class="card" onclick="openDish('prawn-baladao')">
-            <h2>Prawn Balchao</h2>
-            <p>Spicy and tangy Goan prawn pickle.</p>
-        </div>
-        <div class="card" onclick="openDish('xacuti')">
-            <h2>Chicken Xacuti</h2>
-            <p>Aromatic Goan chicken curry made with roasted spices and coconut.</p>
+            <p>Layered Goan dessert made with coconut milk and jaggery.</p>
+            <p><strong>Ingredients:</strong> Coconut milk, jaggery, eggs, flour, ghee, cardamom powder.</p>
+            <p><strong>Preparation:</strong> Layer batter made with coconut milk, jaggery, and eggs, baking each layer separately until the dessert is set.</p>
         </div>
         <div class="card" onclick="openDish('sorpotel')">
-            <h2>Goan Pork Sorpotel</h2>
-            <p>Spicy Goan pork stew with a vinegar-based sauce.</p>
+            <img src="https://example.com/sorpotel.jpg" alt="Sorpotel">
+            <h2>Sorpotel</h2>
+            <p>Spicy pork curry traditionally served during festivals.</p>
+            <p><strong>Ingredients:</strong> Pork, liver, vinegar, red chilies, garlic, ginger, cloves, cinnamon, peppercorns, onions, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook pork and liver with vinegar and spices to create a rich and spicy curry.</p>
+        </div>
+        <div class="card" onclick="openDish('chicken-xacuti')">
+            <img src="https://example.com/chicken-xacuti.jpg" alt="Chicken Xacuti">
+            <h2>Chicken Xacuti</h2>
+            <p>Chicken curry with roasted spices and coconut.</p>
+            <p><strong>Ingredients:</strong> Chicken, coconut, onions, garlic, ginger, poppy seeds, red chilies, turmeric, coriander seeds, cloves, cinnamon, cardamom, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook chicken with a spice paste made from roasted spices and coconut for a flavorful curry.</p>
+        </div>
+        <div class="card" onclick="openDish('goan-sausage-pulao')">
+            <img src="https://example.com/goan-sausage-pulao.jpg" alt="Goan Sausage Pulao">
+            <h2>Goan Sausage Pulao</h2>
+            <p>Rice dish with spicy Goan sausages and vegetables.</p>
+            <p><strong>Ingredients:</strong> Goan sausages, rice, onions, tomatoes, green peas, potatoes, garlic, ginger, turmeric, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook rice with Goan sausages and vegetables for a hearty and spicy pulao.</p>
         </div>
         <div class="card" onclick="openDish('vindaloo')">
-            <h2>Goan Vindaloo</h2>
-            <p>Fiery Goan curry made with pork, vinegar, and a blend of spices.</p>
+            <img src="https://example.com/vindaloo.jpg" alt="Vindaloo">
+            <h2>Vindaloo</h2>
+            <p>Spicy and tangy pork curry with vinegar and garlic.</p>
+            <p><strong>Ingredients:</strong> Pork, vinegar, garlic, ginger, red chilies, turmeric, cumin seeds, mustard seeds, cinnamon, cloves, peppercorns, salt, oil.</p>
+            <p><strong>Preparation:</strong> Marinate pork in vinegar and spices, then cook with a blend of garlic and red chilies for a fiery curry.</p>
         </div>
-        <div class="card" onclick="openDish('sannas')">
-            <h2>Sannas</h2>
-            <p>Steamed Goan rice cakes, often served with curries.</p>
+        <div class="card" onclick="openDish('goan-prawn-balchao')">
+            <img src="https://example.com/goan-prawn-balchao.jpg" alt="Goan Prawn Balchao">
+            <h2>Goan Prawn Balchao</h2>
+            <p>Prawns in a spicy, tangy, and sweet sauce.</p>
+            <p><strong>Ingredients:</strong> Prawns, vinegar, onions, tomatoes, garlic, ginger, red chilies, sugar, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook prawns in a tangy sauce made from vinegar, onions, tomatoes, and spices for a flavorful dish.</p>
         </div>
-        <div class="card" onclick="openDish('rechado')">
-            <h2>Rechado Masala</h2>
-            <p>Spicy red masala paste used to marinate and cook fish.</p>
+        <div class="card" onclick="openDish('prawn-risotto')">
+            <img src="https://example.com/prawn-risotto.jpg" alt="Prawn Risotto">
+            <h2>Prawn Risotto</h2>
+            <p>Creamy rice dish with prawns and coconut milk.</p>
+            <p><strong>Ingredients:</strong> Prawns, rice, coconut milk, onions, garlic, ginger, green chilies, coriander leaves, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook rice with prawns and coconut milk for a creamy and flavorful risotto.</p>
         </div>
-        <div class="card" onclick="openDish('caldin')">
-            <h2>Goan Caldine</h2>
-            <p>Mild Goan curry made with fish and coconut milk.</p>
-        </div>
-        <div class="card" onclick="openDish('fugiyas')">
-            <h2>Fugiyas</h2>
-            <p>Sweet and spongy Goan bread, usually served with curries.</p>
+        <div class="card" onclick="openDish('kulkul')">
+            <img src="https://example.com/kulkul.jpg" alt="Kulkul">
+            <h2>Kulkul</h2>
+            <p>Sweet deep-fried Goan pastries.</p>
+            <p><strong>Ingredients:</strong> Flour, coconut milk, sugar, ghee, salt, oil.</p>
+            <p><strong>Preparation:</strong> Make a dough with flour, coconut milk, and sugar. Shape into small pastries and deep-fry until golden brown.</p>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Indian Bawarchi</p>
     </footer>

@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haryana Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,48 +25,77 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('bajre-ki-khichdi')">
-            <h2>Bajre Ki Khichdi</h2>
-            <p>A hearty and nutritious dish made from millet and lentils.</p>
+        <div class="card" onclick="openDish('bajra-khichdi')">
+            <img src="https://example.com/bajra-khichdi.jpg" alt="Bajra Khichdi">
+            <h2>Bajra Khichdi</h2>
+            <p>Healthy porridge made from pearl millet and lentils.</p>
+            <p><strong>Ingredients:</strong> Pearl millet (bajra), split green gram (moong dal), ghee, cumin seeds, asafoetida, turmeric, salt, water.</p>
+            <p><strong>Preparation:</strong> Cook millet and lentils with spices in a pressure cooker until soft.</p>
         </div>
-        <div class="card" onclick="openDish('churma')">
-            <h2>Churma</h2>
-            <p>Sweet dish made from crushed wheat flour and jaggery.</p>
+        <div class="card" onclick="openDish('haryana-kadhi')">
+            <img src="https://example.com/haryana-kadhi.jpg" alt="Haryana Kadhi">
+            <h2>Haryana Kadhi</h2>
+            <p>Yogurt-based curry with gram flour dumplings.</p>
+            <p><strong>Ingredients:</strong> Yogurt, gram flour (besan), turmeric, red chili powder, cumin seeds, mustard seeds, curry leaves, garlic, green chilies, salt, oil.</p>
+            <p><strong>Preparation:</strong> Prepare a yogurt-based curry with gram flour dumplings and temper with spices.</p>
         </div>
-        <div class="card" onclick="openDish('kadhi-pakora')">
-            <h2>Kadhi Pakora</h2>
-            <p>Yogurt-based curry with gram flour fritters.</p>
+        <div class="card" onclick="openDish('besan-masala-roti')">
+            <img src="https://example.com/besan-masala-roti.jpg" alt="Besan Masala Roti">
+            <h2>Besan Masala Roti</h2>
+            <p>Spiced flatbread made from gram flour.</p>
+            <p><strong>Ingredients:</strong> Gram flour (besan), whole wheat flour, green chilies, coriander leaves, turmeric, carom seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Knead dough with ingredients, roll into flatbreads, and cook on a griddle.</p>
         </div>
         <div class="card" onclick="openDish('bathua-raita')">
+            <img src="https://example.com/bathua-raita.jpg" alt="Bathua Raita">
             <h2>Bathua Raita</h2>
-            <p>Yogurt mixed with bathua leaves and spices.</p>
+            <p>Yogurt-based side dish with chenopodium leaves.</p>
+            <p><strong>Ingredients:</strong> Bathua (chenopodium) leaves, yogurt, cumin powder, salt, red chili powder.</p>
+            <p><strong>Preparation:</strong> Boil and chop bathua leaves, mix with yogurt and spices.</p>
         </div>
-        <div class="card" onclick="openDish('haryanvi-sabzi')">
-            <h2>Haryanvi Sabzi</h2>
-            <p>Mixed vegetable dish prepared with traditional spices.</p>
+        <div class="card" onclick="openDish('kachi-lassi')">
+            <img src="https://example.com/kachi-lassi.jpg" alt="Kachi Lassi">
+            <h2>Kachi Lassi</h2>
+            <p>Refreshing buttermilk drink flavored with cumin and mint.</p>
+            <p><strong>Ingredients:</strong> Buttermilk, roasted cumin powder, black salt, mint leaves.</p>
+            <p><strong>Preparation:</strong> Mix buttermilk with spices and mint for a refreshing drink.</p>
+        </div>
+        <div class="card" onclick="openDish('bajre-ki-roti')">
+            <img src="https://example.com/bajre-ki-roti.jpg" alt="Bajre Ki Roti">
+            <h2>Bajre Ki Roti</h2>
+            <p>Traditional flatbread made from pearl millet flour.</p>
+            <p><strong>Ingredients:</strong> Pearl millet flour (bajra), salt, water, ghee.</p>
+            <p><strong>Preparation:</strong> Knead flour with salt and water, roll into flatbreads, and cook on a griddle with ghee.</p>
+        </div>
+        <div class="card" onclick="openDish('churma')">
+            <img src="https://example.com/churma.jpg" alt="Churma">
+            <h2>Churma</h2>
+            <p>Sweet dish made from coarsely ground wheat flour and jaggery.</p>
+            <p><strong>Ingredients:</strong> Whole wheat flour, jaggery, ghee, cardamom powder.</p>
+            <p><strong>Preparation:</strong> Cook wheat flour in ghee, mix with jaggery and cardamom.</p>
+        </div>
+        <div class="card" onclick="openDish('aloo-tikki')">
+            <img src="https://example.com/aloo-tikki.jpg" alt="Aloo Tikki">
+            <h2>Aloo Tikki</h2>
+            <p>Spiced potato patties served with chutney.</p>
+            <p><strong>Ingredients:</strong> Potatoes, green peas, green chilies, ginger, coriander leaves, cumin seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Mash potatoes with spices, form into patties, and fry until crispy.</p>
         </div>
         <div class="card" onclick="openDish('mithe-chawal')">
+            <img src="https://example.com/mithe-chawal.jpg" alt="Mithe Chawal">
             <h2>Mithe Chawal</h2>
             <p>Sweet rice dish flavored with saffron and cardamom.</p>
+            <p><strong>Ingredients:</strong> Basmati rice, sugar, saffron, cardamom, ghee, nuts.</p>
+            <p><strong>Preparation:</strong> Cook rice with sugar and spices, garnish with nuts.</p>
         </div>
-        <div class="card" onclick="openDish('rajma-chawal')">
-            <h2>Rajma Chawal</h2>
-            <p>Kidney beans curry served with steamed rice.</p>
-        </div>
-        <div class="card" onclick="openDish('haryana-roti')">
-            <h2>Haryana Roti</h2>
-            <p>Traditional flatbread made from whole wheat flour.</p>
-        </div>
-        <div class="card" onclick="openDish('saag')">
-            <h2>Saag</h2>
-            <p>Leafy greens cooked with spices and ghee.</p>
-        </div>
-        <div class="card" onclick="openDish('roti')">
-            <h2>Missi Roti</h2>
-            <p>Spiced flatbread made with gram flour and wheat flour.</p>
+        <div class="card" onclick="openDish('sangri-ki-sabzi')">
+            <img src="https://example.com/sangri-ki-sabzi.jpg" alt="Sangri Ki Sabzi">
+            <h2>Sangri Ki Sabzi</h2>
+            <p>Desert bean stir-fry with spices.</p>
+            <p><strong>Ingredients:</strong> Sangri beans, yogurt, turmeric, red chili powder, coriander powder, cumin seeds, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Soak sangri beans, cook with spices and yogurt.</p>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Indian Bawarchi</p>
     </footer>

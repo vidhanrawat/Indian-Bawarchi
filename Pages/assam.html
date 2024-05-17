@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assam Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,27 +26,76 @@
 
     <div class="container">
         <div class="card" onclick="openDish('masor-tenga')">
+            <img src="https://example.com/masor-tenga.jpg" alt="Masor Tenga">
             <h2>Masor Tenga</h2>
-            <p>Light and tangy fish curry, often made with tomatoes and lemon.</p>
+            <p>Tangy fish curry with tomatoes and lemon.</p>
+            <p><strong>Ingredients:</strong> Fish, tomatoes, lemon, mustard seeds, fenugreek seeds, green chilies, turmeric, oil, salt.</p>
+            <p><strong>Preparation:</strong> Fry mustard seeds and fenugreek seeds. Add tomatoes and cook until soft. Add fish and cook with turmeric and green chilies. Finish with lemon juice.</p>
         </div>
-        <div class="card" onclick="openDish('duck-meat-curry')">
-            <h2>Duck Meat Curry</h2>
-            <p>Rich and flavorful duck curry cooked with ash gourd and spices.</p>
+        <div class="card" onclick="openDish('assamese-duck-curry')">
+            <img src="https://example.com/assamese-duck-curry.jpg" alt="Assamese Duck Curry">
+            <h2>Assamese Duck Curry</h2>
+            <p>Rich duck curry with ash gourd and spices.</p>
+            <p><strong>Ingredients:</strong> Duck, ash gourd, onions, ginger, garlic, black pepper, cardamom, cloves, bay leaves, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Marinate duck with spices. Sauté onions, ginger, and garlic. Add duck and cook until browned. Add ash gourd and cook until tender.</p>
         </div>
-        <div class="card" onclick="openDish('xaak-aru-bhaji')">
-            <h2>Xaak Aru Bhaji</h2>
-            <p>Stir-fried leafy greens, a healthy and traditional dish of Assam.</p>
-        </div>
-        <div class="card" onclick="openDish('aloo-pitika')">
-            <h2>Aloo Pitika</h2>
-            <p>Simple and comforting mashed potatoes mixed with mustard oil, onions, and green chilies.</p>
+        <div class="card" onclick="openDish('khaar')">
+            <img src="https://example.com/khaar.jpg" alt="Khaar">
+            <h2>Khaar</h2>
+            <p>Traditional Assamese dish made with raw papaya and alkali.</p>
+            <p><strong>Ingredients:</strong> Raw papaya, pigeon meat (optional), pulses, mustard oil, khaar (alkaline extract), salt.</p>
+            <p><strong>Preparation:</strong> Cook raw papaya with pulses and pigeon meat. Add khaar and simmer until done.</p>
         </div>
         <div class="card" onclick="openDish('pithas')">
+            <img src="https://example.com/pithas.jpg" alt="Pithas">
             <h2>Pithas</h2>
-            <p>Traditional rice cakes that can be either sweet or savory, commonly enjoyed during festivals.</p>
+            <p>Assamese rice cakes with sweet or savory filling.</p>
+            <p><strong>Ingredients:</strong> Rice flour, coconut, jaggery, sesame seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Prepare dough with rice flour and water. Fill with coconut and jaggery mixture. Steam or fry until done.</p>
+        </div>
+        <div class="card" onclick="openDish('paror-mangxo')">
+            <img src="https://example.com/paror-mangxo.jpg" alt="Paror Mangxo">
+            <h2>Paror Mangxo</h2>
+            <p>Pigeon meat curry with local spices.</p>
+            <p><strong>Ingredients:</strong> Pigeon meat, onions, garlic, ginger, green chilies, turmeric, coriander, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Marinate pigeon meat with turmeric and salt. Sauté onions, garlic, and ginger. Add pigeon meat and cook with spices until tender.</p>
+        </div>
+        <div class="card" onclick="openDish('aaloo-pitika')">
+            <img src="https://example.com/aaloo-pitika.jpg" alt="Aaloo Pitika">
+            <h2>Aaloo Pitika</h2>
+            <p>Mashed potatoes with mustard oil and green chilies.</p>
+            <p><strong>Ingredients:</strong> Potatoes, green chilies, onions, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Boil and mash potatoes. Mix with chopped onions, green chilies, mustard oil, and salt.</p>
+        </div>
+        <div class="card" onclick="openDish('pork-with-bamboo-shoot')">
+            <img src="https://example.com/pork-with-bamboo-shoot.jpg" alt="Pork with Bamboo Shoot">
+            <h2>Pork with Bamboo Shoot</h2>
+            <p>Flavorful pork curry with bamboo shoots.</p>
+            <p><strong>Ingredients:</strong> Pork, bamboo shoots, ginger, garlic, green chilies, turmeric, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Marinate pork with turmeric and salt. Cook pork with ginger, garlic, and green chilies. Add bamboo shoots and simmer until done.</p>
+        </div>
+        <div class="card" onclick="openDish('payas')">
+            <img src="https://example.com/payas.jpg" alt="Payas">
+            <h2>Payas</h2>
+            <p>Sweet rice pudding with milk and jaggery.</p>
+            <p><strong>Ingredients:</strong> Rice, milk, jaggery, cardamom, nuts, ghee.</p>
+            <p><strong>Preparation:</strong> Cook rice in milk until soft. Add jaggery and cardamom. Garnish with nuts and ghee.</p>
+        </div>
+        <div class="card" onclick="openDish('fish-tenga')">
+            <img src="https://example.com/fish-tenga.jpg" alt="Fish Tenga">
+            <h2>Fish Tenga</h2>
+            <p>Light fish curry with tomatoes and lemon juice.</p>
+            <p><strong>Ingredients:</strong> Fish, tomatoes, lemon, mustard seeds, fenugreek seeds, green chilies, turmeric, oil, salt.</p>
+            <p><strong>Preparation:</strong> Fry mustard seeds and fenugreek seeds. Add tomatoes and cook until soft. Add fish and cook with turmeric and green chilies. Finish with lemon juice.</p>
+        </div>
+        <div class="card" onclick="openDish('laru')">
+            <img src="https://example.com/laru.jpg" alt="Laru">
+            <h2>Laru</h2>
+            <p>Sweet coconut balls made with jaggery and coconut.</p>
+            <p><strong>Ingredients:</strong> Grated coconut, jaggery, cardamom powder.</p>
+            <p><strong>Preparation:</strong> Cook grated coconut with jaggery until thickened. Shape into small balls and sprinkle with cardamom powder.</p>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Indian Bawarchi</p>
     </footer>

@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerala Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Kerala Cuisine</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,52 +26,60 @@
 
     <div class="container">
         <div class="card" onclick="openDish('appam')">
+            <img src="https://example.com/appam.jpg" alt="Appam">
             <h2>Appam</h2>
-            <p>Soft and fluffy rice pancakes with crispy edges, usually served with stew.</p>
+            <p>Lacy fermented rice pancakes, a Kerala breakfast staple.</p>
+            <p><strong>Ingredients:</strong> Rice, coconut, yeast, sugar, salt.</p>
+            <p><strong>Preparation:</strong> Ferment rice, coconut, and yeast, cook into thin pancakes.</p>
         </div>
         <div class="card" onclick="openDish('puttu')">
+            <img src="https://example.com/puttu.jpg" alt="Puttu">
             <h2>Puttu</h2>
-            <p>Steamed rice flour and coconut log, typically served with kadala curry.</p>
-        </div>
-        <div class="card" onclick="openDish('kerala-parotta')">
-            <h2>Kerala Parotta</h2>
-            <p>Flaky and layered flatbread made from maida (all-purpose flour).</p>
-        </div>
-        <div class="card" onclick="openDish('avial')">
-            <h2>Avial</h2>
-            <p>Mixed vegetable curry with coconut and yogurt.</p>
-        </div>
-        <div class="card" onclick="openDish('sambar')">
-            <h2>Sambar</h2>
-            <p>Spicy and tangy lentil soup with vegetables.</p>
+            <p>Steamed rice cakes layered with coconut, often served with kadala curry.</p>
+            <p><strong>Ingredients:</strong> Rice flour, grated coconut, salt.</p>
+            <p><strong>Preparation:</strong> Layer rice flour and coconut, steam until cooked.</p>
         </div>
         <div class="card" onclick="openDish('fish-molee')">
+            <img src="https://example.com/fish-molee.jpg" alt="Fish Molee">
             <h2>Fish Molee</h2>
-            <p>Lightly spiced fish stew with coconut milk.</p>
+            <p>Coconut milk-based fish stew with spices and curry leaves.</p>
+            <p><strong>Ingredients:</strong> Fish, coconut milk, onions, tomatoes, ginger, green chilies, turmeric, mustard seeds, curry leaves.</p>
+            <p><strong>Preparation:</strong> Cook fish in coconut milk with spices and tempering.</p>
         </div>
-        <div class="card" onclick="openDish('banana-chips')">
-            <h2>Banana Chips</h2>
-            <p>Thinly sliced and deep-fried banana slices.</p>
+        <div class="card" onclick="openDish('avial')">
+            <img src="https://example.com/avial.jpg" alt="Avial">
+            <h2>Avial</h2>
+            <p>Mixed vegetable curry with coconut, yogurt, and curry leaves.</p>
+            <p><strong>Ingredients:</strong> Mixed vegetables, coconut, yogurt, green chilies, turmeric, curry leaves, coconut oil.</p>
+            <p><strong>Preparation:</strong> Cook vegetables with coconut, yogurt, and spices, temper with curry leaves.</p>
         </div>
-        <div class="card" onclick="openDish('payasam')">
-            <h2>Payasam</h2>
-            <p>Sweet rice pudding made with milk and jaggery.</p>
+        <div class="card" onclick="openDish('kerala-beef-fry')">
+            <img src="https://example.com/kerala-beef-fry.jpg" alt="Kerala Beef Fry">
+            <h2>Kerala Beef Fry</h2>
+            <p>Spicy and flavorful beef fry cooked with onions and spices.</p>
+            <p><strong>Ingredients:</strong> Beef, onions, ginger-garlic paste, spices (black pepper, coriander, turmeric), curry leaves, coconut oil.</p>
+            <p><strong>Preparation:</strong> Marinate beef, fry with onions and spices until tender.</p>
         </div>
-        <div class="card" onclick="openDish('thalassery-biryani')">
-            <h2>Thalassery Biryani</h2>
-            <p>Fragrant rice and meat dish cooked with spices.</p>
+        <div class="card" onclick="openDish('karimeen-pollichathu')">
+            <img src="https://example.com/karimeen-pollichathu.jpg" alt="Karimeen Pollichathu">
+            <h2>Karimeen Pollichathu</h2>
+            <p>Pearl spot fish marinated in spices, wrapped in banana leaf, and grilled.</p>
+            <p><strong>Ingredients:</strong> Pearl spot fish, spices (chili, turmeric, pepper), ginger-garlic, curry leaves, coconut oil.</p>
+            <p><strong>Preparation:</strong> Marinate fish, wrap in banana leaf, grill until cooked.</p>
         </div>
-        <div class="card" onclick="openDish('kappa-meen-curry')">
-            <h2>Kappa Meen Curry</h2>
-            <p>Boiled tapioca served with spicy fish curry.</p>
+        <div class="card" onclick="openDish('sadya')">
+            <img src="https://example.com/sadya.jpg" alt="Sadya">
+            <h2>Sadya</h2>
+            <p>Traditional Kerala feast with a variety of vegetarian dishes served on a banana leaf.</p>
+            <p><strong>Ingredients:</strong> Various vegetables, coconut, spices, rice, lentils, banana leaf.</p>
+            <p><strong>Preparation:</strong> Cook and serve an assortment of dishes on a banana leaf.</p>
         </div>
-    </div>
+        <div class="card" onclick="openDish('elaneer-payasam')">
+            <img src="https://example.com/elaneer-payasam.jpg" alt="Elaneer Payasam">
+            <h2>Elaneer Payasam</h2>
+            <p>Tender coconut kheer made with coconut water, milk, and jaggery.</p>
+            <p><strong>Ingredients:</strong> Tender coconut water, milk, jaggery, rice, cardamom, nuts.</p>
+            <p><strong>Preparation:</strong> Cook rice in coconut water and milk, sweeten with jaggery, garnish with nuts.</p>
+        </div>
+    
 
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>

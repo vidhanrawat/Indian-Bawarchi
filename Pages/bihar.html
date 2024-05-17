@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bihar Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,47 +26,76 @@
 
     <div class="container">
         <div class="card" onclick="openDish('litti-chokha')">
+            <img src="https://example.com/litti-chokha.jpg" alt="Litti Chokha">
             <h2>Litti Chokha</h2>
-            <p>Traditional dish made with roasted wheat balls and mashed vegetables.</p>
+            <p>Roasted wheat balls stuffed with sattu and served with mashed vegetables.</p>
+            <p><strong>Ingredients:</strong> Whole wheat flour, sattu (roasted gram flour), onions, garlic, ginger, green chilies, mustard oil, brinjal, tomatoes, potatoes, salt, spices.</p>
+            <p><strong>Preparation:</strong> Prepare dough with wheat flour and water. Stuff with a mixture of sattu and spices. Roast litti balls and serve with chokha made from roasted brinjal, tomatoes, and potatoes.</p>
         </div>
-        <div class="card" onclick="openDish('sattu-paratha')">
-            <h2>Sattu Paratha</h2>
-            <p>Stuffed flatbread made with roasted gram flour and spices.</p>
-        </div>
-        <div class="card" onclick="openDish('chana-ghugni')">
-            <h2>Chana Ghugni</h2>
-            <p>Spicy and tangy chickpea curry often served with rice or flatbreads.</p>
+        <div class="card" onclick="openDish('ghughni')">
+            <img src="https://example.com/ghughni.jpg" alt="Ghughni">
+            <h2>Ghughni</h2>
+            <p>Spicy yellow peas curry.</p>
+            <p><strong>Ingredients:</strong> Yellow peas, onions, tomatoes, ginger-garlic paste, green chilies, cumin seeds, turmeric, garam masala, coriander leaves, oil, salt.</p>
+            <p><strong>Preparation:</strong> Soak yellow peas overnight. Cook with spices, onions, and tomatoes until soft. Garnish with coriander leaves.</p>
         </div>
         <div class="card" onclick="openDish('thekua')">
+            <img src="https://example.com/thekua.jpg" alt="Thekua">
             <h2>Thekua</h2>
-            <p>Sweet fried cookie made with wheat flour, jaggery, and coconut.</p>
+            <p>Sweet fried cookies made with wheat flour and jaggery.</p>
+            <p><strong>Ingredients:</strong> Wheat flour, jaggery, grated coconut, cardamom powder, ghee, oil.</p>
+            <p><strong>Preparation:</strong> Mix wheat flour with jaggery, grated coconut, and cardamom powder. Shape into cookies and fry in ghee.</p>
         </div>
-        <div class="card" onclick="openDish('dal-pitha')">
-            <h2>Dal Pitha</h2>
-            <p>Steamed rice flour dumplings stuffed with lentils and spices.</p>
-        </div>
-        <div class="card" onclick="openDish('khaja')">
-            <h2>Khaja</h2>
-            <p>Layered pastry soaked in sugar syrup, a popular sweet treat.</p>
-        </div>
-        <div class="card" onclick="openDish('mutton-korma')">
-            <h2>Mutton Korma</h2>
-            <p>Rich and flavorful mutton curry cooked with spices and yogurt.</p>
+        <div class="card" onclick="openDish('chana-ghugni')">
+            <img src="https://example.com/chana-ghugni.jpg" alt="Chana Ghugni">
+            <h2>Chana Ghugni</h2>
+            <p>Black chickpeas curry with spices.</p>
+            <p><strong>Ingredients:</strong> Black chickpeas, onions, tomatoes, ginger-garlic paste, green chilies, cumin seeds, turmeric, garam masala, coriander leaves, oil, salt.</p>
+            <p><strong>Preparation:</strong> Soak black chickpeas overnight. Cook with spices, onions, and tomatoes until soft. Garnish with coriander leaves.</p>
         </div>
         <div class="card" onclick="openDish('malpua')">
+            <img src="https://example.com/malpua.jpg" alt="Malpua">
             <h2>Malpua</h2>
-            <p>Sweet pancakes made with flour, milk, and sugar, often served with rabri.</p>
+            <p>Sweet pancakes soaked in sugar syrup.</p>
+            <p><strong>Ingredients:</strong> Flour, milk, sugar, fennel seeds, cardamom powder, ghee.</p>
+            <p><strong>Preparation:</strong> Make a batter with flour, milk, sugar, and fennel seeds. Fry small pancakes in ghee and soak in sugar syrup.</p>
         </div>
-        <div class="card" onclick="openDish('kuauni')">
-            <h2>Kuauni</h2>
-            <p>Traditional Bihari dessert made from milk, sugar, and cardamom.</p>
+        <div class="card" onclick="openDish('khaja')">
+            <img src="https://example.com/khaja.jpg" alt="Khaja">
+            <h2>Khaja</h2>
+            <p>Flaky pastry soaked in sugar syrup.</p>
+            <p><strong>Ingredients:</strong> Flour, ghee, sugar, cardamom powder.</p>
+            <p><strong>Preparation:</strong> Make dough with flour and ghee. Roll and fry to make layered pastries. Soak in sugar syrup flavored with cardamom.</p>
         </div>
-        <div class="card" onclick="openDish('balushahi')">
-            <h2>Balushahi</h2>
-            <p>Sweet doughnut-like dessert with a flaky texture, soaked in sugar syrup.</p>
+        <div class="card" onclick="openDish('dal-pitha')">
+            <img src="https://example.com/dal-pitha.jpg" alt="Dal Pitha">
+            <h2>Dal Pitha</h2>
+            <p>Steamed rice flour dumplings stuffed with spiced lentil mixture.</p>
+            <p><strong>Ingredients:</strong> Rice flour, chana dal, onions, garlic, ginger, green chilies, cumin seeds, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Make dough with rice flour and water. Fill with a mixture of cooked chana dal and spices. Steam until done.</p>
+        </div>
+        <div class="card" onclick="openDish('aloo-kachalu-chutney')">
+            <img src="https://example.com/aloo-kachalu-chutney.jpg" alt="Aloo Kachalu Chutney">
+            <h2>Aloo Kachalu Chutney</h2>
+            <p>Tangy potato salad with tamarind and spices.</p>
+            <p><strong>Ingredients:</strong> Potatoes, tamarind pulp, green chilies, cumin seeds, coriander leaves, black salt, chaat masala.</p>
+            <p><strong>Preparation:</strong> Boil and cube potatoes. Mix with tamarind pulp, chopped green chilies, cumin seeds, and spices.</p>
+        </div>
+        <div class="card" onclick="openDish('bihari-kebab')">
+            <img src="https://example.com/bihari-kebab.jpg" alt="Bihari Kebab">
+            <h2>Bihari Kebab</h2>
+            <p>Spicy grilled meat skewers.</p>
+            <p><strong>Ingredients:</strong> Meat (beef, lamb, or chicken), yogurt, onions, garlic, ginger, red chili powder, garam masala, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Marinate meat with yogurt and spices. Skewer and grill until cooked through.</p>
+        </div>
+        <div class="card" onclick="openDish('bhojpuri-mutton')">
+            <img src="https://example.com/bhojpuri-mutton.jpg" alt="Bhojpuri Mutton">
+            <h2>Bhojpuri Mutton</h2>
+            <p>Hearty mutton curry with robust spices.</p>
+            <p><strong>Ingredients:</strong> Mutton, onions, tomatoes, ginger-garlic paste, green chilies, turmeric, red chili powder, garam masala, mustard oil, salt.</p>
+            <p><strong>Preparation:</strong> Cook mutton with onions, tomatoes, and spices until tender.</p>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Indian Bawarchi</p>
     </footer>

@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gujarat Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -25,47 +26,76 @@
 
     <div class="container">
         <div class="card" onclick="openDish('dhokla')">
+            <img src="https://example.com/dhokla.jpg" alt="Dhokla">
             <h2>Dhokla</h2>
             <p>Steamed savory cake made from fermented rice and chickpea batter.</p>
+            <p><strong>Ingredients:</strong> Gram flour (besan), yogurt, green chilies, ginger, lemon juice, fruit salt, mustard seeds, sesame seeds, curry leaves, coriander leaves, sugar, salt, oil.</p>
+            <p><strong>Preparation:</strong> Prepare batter with gram flour and yogurt, ferment it, steam it, and then temper with spices.</p>
         </div>
         <div class="card" onclick="openDish('khandvi')">
+            <img src="https://example.com/khandvi.jpg" alt="Khandvi">
             <h2>Khandvi</h2>
-            <p>Delicate rolls made from gram flour and yogurt, seasoned with mustard seeds.</p>
+            <p>Delicate rolls made from chickpea flour and yogurt.</p>
+            <p><strong>Ingredients:</strong> Gram flour (besan), yogurt, turmeric, ginger paste, green chili paste, mustard seeds, sesame seeds, curry leaves, coriander leaves, grated coconut, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook a batter made from gram flour and yogurt, spread thin, cut into strips, roll, and temper with spices.</p>
         </div>
         <div class="card" onclick="openDish('undhiyu')">
+            <img src="https://example.com/undhiyu.jpg" alt="Undhiyu">
             <h2>Undhiyu</h2>
-            <p>Mixed vegetable dish cooked with a blend of spices and herbs.</p>
+            <p>Mixed vegetable dish cooked with special spices and herbs.</p>
+            <p><strong>Ingredients:</strong> Mixed vegetables (eggplant, potatoes, sweet potatoes, green beans, green peas), methi muthia, coconut, coriander leaves, green chilies, ginger, garlic, sesame seeds, carom seeds, turmeric, cumin, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook mixed vegetables and methi muthia with a blend of spices and herbs.</p>
         </div>
         <div class="card" onclick="openDish('thepla')">
+            <img src="https://example.com/thepla.jpg" alt="Thepla">
             <h2>Thepla</h2>
-            <p>Spiced flatbread made with whole wheat flour, fenugreek leaves, and spices.</p>
+            <p>Spiced flatbread made with wheat flour and fenugreek leaves.</p>
+            <p><strong>Ingredients:</strong> Whole wheat flour, fenugreek leaves, yogurt, turmeric, red chili powder, sesame seeds, cumin seeds, salt, oil.</p>
+            <p><strong>Preparation:</strong> Knead dough with ingredients, roll into flatbreads, and cook on a griddle.</p>
         </div>
         <div class="card" onclick="openDish('fafda-jalebi')">
-            <h2>Fafda-Jalebi</h2>
-            <p>Crispy gram flour snack served with sweet, syrupy jalebis.</p>
-        </div>
-        <div class="card" onclick="openDish('sev-tameta')">
-            <h2>Sev Tameta</h2>
-            <p>Tomato curry topped with crunchy sev.</p>
+            <img src="https://example.com/fafda-jalebi.jpg" alt="Fafda Jalebi">
+            <h2>Fafda Jalebi</h2>
+            <p>Crunchy chickpea flour snack served with sweet syrupy jalebi.</p>
+            <p><strong>Ingredients:</strong> For Fafda: Gram flour (besan), carom seeds, turmeric, salt, oil. For Jalebi: All-purpose flour, yogurt, saffron, sugar, ghee.</p>
+            <p><strong>Preparation:</strong> Deep fry fafda made from gram flour dough and serve with syrupy jalebi.</p>
         </div>
         <div class="card" onclick="openDish('handvo')">
+            <img src="https://example.com/handvo.jpg" alt="Handvo">
             <h2>Handvo</h2>
-            <p>Savory vegetable cake made with rice and lentil batter.</p>
+            <p>Savory cake made with mixed lentils and rice, spiced with ginger and green chilies.</p>
+            <p><strong>Ingredients:</strong> Mixed lentils, rice, yogurt, ginger, green chilies, turmeric, mustard seeds, sesame seeds, curry leaves, salt, oil.</p>
+            <p><strong>Preparation:</strong> Soak and grind lentils and rice, ferment the batter, and bake it with spices and tempering.</p>
         </div>
-        <div class="card" onclick="openDish('patra')">
-            <h2>Patra</h2>
-            <p>Colocasia leaves rolled with spiced gram flour paste and steamed.</p>
+        <div class="card" onclick="openDish('khichdi')">
+            <img src="https://example.com/khichdi.jpg" alt="Khichdi">
+            <h2>Khichdi</h2>
+            <p>Comforting rice and lentil dish cooked with mild spices.</p>
+            <p><strong>Ingredients:</strong> Rice, split moong dal, ghee, cumin seeds, turmeric, ginger, green chilies, asafoetida, salt.</p>
+            <p><strong>Preparation:</strong> Cook rice and lentils with spices for a comforting and nutritious dish.</p>
         </div>
-        <div class="card" onclick="openDish('bhakri')">
-            <h2>Bhakri</h2>
-            <p>Thick whole wheat flatbread.</p>
+        <div class="card" onclick="openDish('shrikhanda')">
+            <img src="https://example.com/shrikhanda.jpg" alt="Shrikhanda">
+            <h2>Shrikhanda</h2>
+            <p>Sweetened and flavored yogurt dessert.</p>
+            <p><strong>Ingredients:</strong> Yogurt, sugar, saffron, cardamom, nuts.</p>
+            <p><strong>Preparation:</strong> Strain yogurt, mix with sugar and flavorings, and garnish with nuts.</p>
         </div>
-        <div class="card" onclick="openDish('shrikhande')">
-            <h2>Shrikhand</h2>
-            <p>Sweet dish made from strained yogurt, flavored with saffron and cardamom.</p>
+        <div class="card" onclick="openDish('sev-tameta')">
+            <img src="https://example.com/sev-tameta.jpg" alt="Sev Tameta">
+            <h2>Sev Tameta</h2>
+            <p>Tomato curry topped with crunchy sev.</p>
+            <p><strong>Ingredients:</strong> Tomatoes, onions, green chilies, garlic, ginger, cumin seeds, turmeric, red chili powder, coriander powder, salt, oil, sev.</p>
+            <p><strong>Preparation:</strong> Cook a spicy tomato curry and top with crunchy sev just before serving.</p>
+        </div>
+        <div class="card" onclick="openDish('dhansak')">
+            <img src="https://example.com/dhansak.jpg" alt="Dhansak">
+            <h2>Dhansak</h2>
+            <p>Parsi dish of meat and lentils cooked with vegetables and spices.</p>
+            <p><strong>Ingredients:</strong> Meat (mutton or chicken), mixed lentils, vegetables (eggplant, pumpkin), onions, tomatoes, ginger, garlic, green chilies, turmeric, cumin, coriander, garam masala, salt, oil.</p>
+            <p><strong>Preparation:</strong> Cook meat with lentils and vegetables in a blend of spices for a hearty dish.</p>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Indian Bawarchi</p>
     </footer>

@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sikkim Dishes</title>
-    <link rel="stylesheet" href="states.css">
+    <title>Sikkim Delicacies</title>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 
 <body>
     <div class="top">
-        <div class="logo">INDIAN BAWARCHI</div>
+        <div class="logo"></div>
         <div class="nav">
             <a href="./../indianbawarchi.html">HOME</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
             <a href="Recipes.html">RECIPES</a>
+            <!-- <a href="#" id="start-here-link">SUBMIT RECIPE</a> -->
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="search">
@@ -24,53 +25,66 @@
     </div>
 
     <div class="container">
-        <div class="card" onclick="openDish('thukpa')">
-            <h2>Thukpa</h2>
-            <p>Spicy noodle soup with vegetables or meat.</p>
+        <div class="card" onclick="openDish('phagshapa')">
+            <img src="https://example.com/phagshapa.jpg" alt="Phagshapa">
+            <h2>Phagshapa</h2>
+            <p>A traditional Sikkimese pork dish with radishes and dried chilies.</p>
+            <p><strong>Ingredients:</strong> Pork, radish, dried chilies, ginger, garlic.</p>
+            <p><strong>Preparation:</strong> Cook pork with radishes, dried chilies, ginger, and garlic.</p>
         </div>
         <div class="card" onclick="openDish('momos')">
+            <img src="https://example.com/momos.jpg" alt="Momos">
             <h2>Momos</h2>
-            <p>Steamed dumplings with meat or vegetable filling.</p>
-        </div>
-        <div class="card" onclick="openDish('phagshapa')">
-            <h2>Phagshapa</h2>
-            <p>Sliced pork with radishes and dried chilies.</p>
+            <p>Steamed dumplings with various fillings, served with dipping sauces.</p>
+            <p><strong>Ingredients:</strong> Flour, vegetables/meat, spices.</p>
+            <p><strong>Preparation:</strong> Fill dough with vegetables/meat, steam, serve with sauces.</p>
         </div>
         <div class="card" onclick="openDish('gundruk')">
+            <img src="https://example.com/gundruk.jpg" alt="Gundruk">
             <h2>Gundruk</h2>
-            <p>Fermented leafy greens used in soups and curries.</p>
-        </div>
-        <div class="card" onclick="openDish('sel-roti')">
-            <h2>Sel Roti</h2>
-            <p>Rice flour doughnut-like bread, often sweetened.</p>
-        </div>
-        <div class="card" onclick="openDish('chhurpi')">
-            <h2>Chhurpi</h2>
-            <p>Fermented cheese used in traditional Sikkimese dishes.</p>
+            <p>Fermented leafy greens, a staple in Sikkimese cuisine.</p>
+            <p><strong>Ingredients:</strong> Leafy greens, water, fermentation.</p>
+            <p><strong>Preparation:</strong> Dry leafy greens, ferment, use in soups or as a side dish.</p>
         </div>
         <div class="card" onclick="openDish('kinema')">
+            <img src="https://example.com/kinema.jpg" alt="Kinema">
             <h2>Kinema</h2>
-            <p>Fermented soybean dish with a strong flavor.</p>
+            <p>Fermented soybean dish, often used in stews and curries.</p>
+            <p><strong>Ingredients:</strong> Soybeans, water, fermentation.</p>
+            <p><strong>Preparation:</strong> Soak and ferment soybeans, use in various dishes.</p>
         </div>
-        <div class="card" onclick="openDish('sael-roti')">
-            <h2>Sael Roti</h2>
-            <p>Traditional ring-shaped rice bread, especially during festivals.</p>
+        <div class="card" onclick="openDish('sel-roti')">
+            <img src="https://example.com/sel-roti.jpg" alt="Sel Roti">
+            <h2>Sel Roti</h2>
+            <p>Traditional Sikkimese rice flour bread, usually served during festivals.</p>
+            <p><strong>Ingredients:</strong> Rice flour, sugar, water, oil for frying.</p>
+            <p><strong>Preparation:</strong> Make a batter, fry in oil until crispy.</p>
         </div>
-        <div class="card" onclick="openDish('gahat-ki-daal')">
-            <h2>Gahat Ki Daal</h2>
-            <p>Horse gram lentil soup, rich in protein and nutrients.</p>
+        <div class="card" onclick="openDish('chhurpi')">
+            <img src="https://example.com/chhurpi.jpg" alt="Chhurpi">
+            <h2>Chhurpi</h2>
+            <p>Hard cheese made from yak's milk, used in various dishes.</p>
+            <p><strong>Ingredients:</strong> Yak's milk, salt, fermentation.</p>
+            <p><strong>Preparation:</strong> Curdle yak's milk, press into cheese, dry and ferment.</p>
         </div>
-        <div class="card" onclick="openDish('kodo-ko-roti')">
-            <h2>Kodo Ko Roti</h2>
-            <p>Millet flatbread, a staple in Sikkimese cuisine.</p>
+        <div class="card" onclick="openDish('phagshapa')">
+            <img src="https://example.com/phagshapa.jpg" alt="Phagshapa">
+            <h2>Phagshapa</h2>
+            <p>A traditional Sikkimese pork dish with radishes and dried chilies.</p>
+            <p><strong>Ingredients:</strong> Pork, radish, dried chilies, ginger, garlic.</p>
+            <p><strong>Preparation:</strong> Cook pork with radishes, dried chilies, ginger, and garlic.</p>
         </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Indian Bawarchi</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+        <div class="card" onclick="openDish('chang')">
+            <img src="https://example.com/chang.jpg" alt="Chang">
+            <h2>Chang</h2>
+            <p>Fermented millet or barley beverage, a traditional Sikkimese drink.</p>
+            <p><strong>Ingredients:</strong> Millet/barley, water, fermentation.</p>
+            <p><strong>Preparation:</strong> Ferment millet or barley in water, strain, serve as a beverage.</p>
+        </div>
+        <div class="card" onclick="openDish('gundruk-soup')">
+            <img src="https://example.com/gundruk-soup.jpg" alt="Gundruk Soup">
+            <h2>Gundruk Soup</h2>
+            <p>Soup made from fermented leafy greens (gundruk), usually with vegetables and spices.</p>
+            <p><strong>Ingredients:</strong> Gundruk, vegetables, spices, water.</p>
+            <p><strong>Preparation:</strong> Cook gundruk with vegetables, spices, and water to make a soup.</p>
+        </div>
